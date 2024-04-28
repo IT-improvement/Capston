@@ -1,8 +1,26 @@
 /* eslint-disable */
 
-function LoginAgreeHeader() {
+import {Helmet} from "react-helmet";
+
+function SingUpAgreeHeader() {
     return (
         <div>
+            <Helmet>
+                <meta charSet="UTF-8"/>
+                <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
+                <meta httpEquiv="imagetoolbar" content="no"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta name="format-detection" content="telephone=no"/>
+                <meta name="title" content="웹사이트"/>
+                <meta name="description" content="웹사이트입니다."/>
+                <meta name="keywords" content="키워드,키워드,키워드"/>
+                <meta property="og:title" content="웹사이트"/>
+                <meta property="og:description" content="웹사이트입니다"/>
+                <meta property="og:image" content="https://웹사이트/images/opengraph.png"/>
+                <meta property="og:url" content="https://웹사이트"/>
+                <title>회원가입 약관동의 | capston</title>
+
+            </Helmet>
             <header className="opilsol-N2" data-bid="ojLVj5k7jj">
                 <div className="header-container container-lg">
                     <div className="header-left">
@@ -346,4 +364,4 @@ function LoginAgreeHeader() {
     );
 }
 
-export default LoginAgreeHeader;
+export default SingUpAgreeHeader;

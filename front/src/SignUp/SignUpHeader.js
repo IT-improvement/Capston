@@ -1,10 +1,10 @@
 /* eslint-disable */
-import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
-function Header() {
+
+import {Helmet} from "react-helmet";
+
+function SignUpHeader() {
     return (
         <div>
-            {/*Helmet은 meta데이터를 저장하는 컴포넌트*/}
             <Helmet>
                 <meta charSet="UTF-8"/>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
@@ -18,15 +18,16 @@ function Header() {
                 <meta property="og:description" content="웹사이트입니다"/>
                 <meta property="og:image" content="https://웹사이트/images/opengraph.png"/>
                 <meta property="og:url" content="https://웹사이트"/>
-                <title>첫페이지 | capston</title>
+                <title>회원가입 정보입력 | capston</title>
             </Helmet>
 
-            <header className="opilsol-N1" data-bid="ZPlVH31uPs" id>
+
+            <header className="opilsol-N2" data-bid="qMLVj5IYrh">
                 <div className="header-container container-lg">
                     <div className="header-left">
                         <h1 className="header-title">
                             <a href="javascript:void(0)">
-                                <img src="../resources/images/img_logo_white.png" alt="로고"/>
+                                <img src="../resources/images/img_logo_black.png" alt="로고"/>
                             </a>
                         </h1>
                     </div>
@@ -160,16 +161,16 @@ function Header() {
                     <div className="header-right">
                         <div className="header-utils">
                             <button className="btn-search">
-                                <img src="../resources/icons/ico_search_white.svg" alt="검색"/>
+                                <img src="../resources/icons/ico_search_black.svg" alt="검색"/>
                             </button>
-                            <Link to="../Login/Login.jsx" className="btn-user">{/*Link는 to에 적혀있는 링크로 라우터 해준다는 뜻*/}
-                                <img src="../resources/icons/ico_user_white.svg" alt="마이페이지" />
-                            </Link>
+                            <button className="btn-user">
+                                <img src="../resources/icons/ico_user_black.svg" alt="마이페이지"/>
+                            </button>
                             <button className="btn-allmenu">
-                                <img src="../resources/icons/ico_menu3_white.svg" alt="PC메뉴"/>
+                                <img src="../resources/icons/ico_menu3_black.svg" alt="PC메뉴"/>
                             </button>
                             <button className="btn-momenu">
-                                <img src="../resources/icons/ico_menu3_white.svg" alt="모바일메뉴"/>
+                                <img src="../resources/icons/ico_menu3_black.svg" alt="모바일메뉴"/>
                             </button>
                             <button className="btn-moclose">
                                 <img src="../resources/icons/ico_close_black.svg" alt="닫기"/>
@@ -361,9 +362,8 @@ function Header() {
                 </div>
             </header>
 
-
         </div>
     );
 }
 
-export default Header;
+export default SignUpHeader;

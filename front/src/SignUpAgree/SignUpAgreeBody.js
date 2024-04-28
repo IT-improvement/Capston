@@ -1,6 +1,8 @@
 /* eslint-disable */
 
-function LoginAgreeBody() {
+import {Link} from "react-router-dom";
+
+function SignUpAgreeBody() {
     return (
         <div>
             <main className="th-layout-main ">
@@ -98,9 +100,9 @@ function LoginAgreeBody() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="bottom-btn">
+                                <Link to="../SignUp/SignUp.jsx " div className="bottom-btn">
                                     <button className="btnset btnset-lg btnset-rect">일반 회원가입</button>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -113,4 +115,4 @@ function LoginAgreeBody() {
     );
 }
 
-export default LoginAgreeBody;
+export default SignUpAgreeBody;

@@ -54,7 +54,7 @@ function LoginHome() {
                                 <a className="btnset btnset-lg btnset-rect" href="javascript:void(0)">로그인</a>
                             </div>
                             <ul className="contents-list">
-                                <Link to="../LoginAgree/LoginAgree.jsx" className="contents-item">
+                                <Link to="../SignUpAgree/SignUpAgree.jsx" className="contents-item">
                                     <a href="javascript:void(0)" className="contents-link">회원가입</a>
                                 </Link>
                                 <li className="contents-item">
