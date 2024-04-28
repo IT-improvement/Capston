@@ -1,5 +1,7 @@
 /* eslint-disable */
 import {Helmet} from "react-helmet";
+import {Link} from "react-router-dom";
+
 
 function LoginHome() {
     return (
@@ -52,9 +54,9 @@ function LoginHome() {
                                 <a className="btnset btnset-lg btnset-rect" href="javascript:void(0)">로그인</a>
                             </div>
                             <ul className="contents-list">
-                                <li className="contents-item">
+                                <Link to="../LoginAgree/LoginAgree.jsx" className="contents-item">
                                     <a href="javascript:void(0)" className="contents-link">회원가입</a>
-                                </li>
+                                </Link>
                                 <li className="contents-item">
                                     <a href="javascript:void(0)" className="contents-link">아이디 찾기</a>
                                 </li>

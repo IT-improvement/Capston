@@ -1,31 +1,14 @@
 /* eslint-disable */
-import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
-function Header() {
+
+function LoginAgreeHeader() {
     return (
         <div>
-            <Helmet>
-                <meta charSet="UTF-8"/>
-                <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
-                <meta httpEquiv="imagetoolbar" content="no"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-                <meta name="format-detection" content="telephone=no"/>
-                <meta name="title" content="웹사이트"/>
-                <meta name="description" content="웹사이트입니다."/>
-                <meta name="keywords" content="키워드,키워드,키워드"/>
-                <meta property="og:title" content="웹사이트"/>
-                <meta property="og:description" content="웹사이트입니다"/>
-                <meta property="og:image" content="https://웹사이트/images/opengraph.png"/>
-                <meta property="og:url" content="https://웹사이트"/>
-                <title>첫페이지 | capston</title>
-            </Helmet>
-
-            <header className="opilsol-N1" data-bid="ZPlVH31uPs" id>
+            <header className="opilsol-N2" data-bid="ojLVj5k7jj">
                 <div className="header-container container-lg">
                     <div className="header-left">
                         <h1 className="header-title">
                             <a href="javascript:void(0)">
-                                <img src="../resources/images/img_logo_white.png" alt="로고"/>
+                                <img src="../resources/images/img_logo_black.png" alt="로고"/>
                             </a>
                         </h1>
                     </div>
@@ -159,16 +142,16 @@ function Header() {
                     <div className="header-right">
                         <div className="header-utils">
                             <button className="btn-search">
-                                <img src="../resources/icons/ico_search_white.svg" alt="검색"/>
+                                <img src="../resources/icons/ico_search_black.svg" alt="검색"/>
                             </button>
-                            <Link to="../Login/Login.jsx" className="btn-user">
-                                <img src="../resources/icons/ico_user_white.svg" alt="마이페이지" />
-                            </Link>
+                            <button className="btn-user">
+                                <img src="../resources/icons/ico_user_black.svg" alt="마이페이지"/>
+                            </button>
                             <button className="btn-allmenu">
-                                <img src="../resources/icons/ico_menu3_white.svg" alt="PC메뉴"/>
+                                <img src="../resources/icons/ico_menu3_black.svg" alt="PC메뉴"/>
                             </button>
                             <button className="btn-momenu">
-                                <img src="../resources/icons/ico_menu3_white.svg" alt="모바일메뉴"/>
+                                <img src="../resources/icons/ico_menu3_black.svg" alt="모바일메뉴"/>
                             </button>
                             <button className="btn-moclose">
                                 <img src="../resources/icons/ico_close_black.svg" alt="닫기"/>
@@ -359,10 +342,8 @@ function Header() {
                     </button>
                 </div>
             </header>
-
-
         </div>
     );
 }
 
-export default Header;
+export default LoginAgreeHeader;
