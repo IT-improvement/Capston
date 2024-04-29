@@ -175,11 +175,13 @@
     function boxHeight() {
       const el = $(".opilsol-N4 .visual-container .control-wrap");
       const txtBox = $(".opilsol-N4 .visual-swiper .visual-text-box");
-      el.css({
-        height: txtBox.height(),
-        transition: "all .5s ",
-      });
-      $(".load").text(el.position().top);
+      if (el.length > 0 && txtBox.length > 0) {
+        el.css({
+          height: txtBox.height(),
+          transition: "all .5s ",
+        });
+        $(".load").text(el.position().top);
+      }
     }
   });
 })();

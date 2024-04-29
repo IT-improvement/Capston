@@ -19,6 +19,7 @@ function Header() {
                 <meta property="og:image" content="https://웹사이트/images/opengraph.png"/>
                 <meta property="og:url" content="https://웹사이트"/>
                 <title>첫페이지 | capston</title>
+
             </Helmet>
 
             <header className="opilsol-N1" data-bid="ZPlVH31uPs" id>
