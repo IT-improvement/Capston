@@ -1,8 +1,28 @@
 /* eslint-disable */
 
 import {Link} from "react-router-dom";
+import {useEffect} from "react";
+
 
 function SignUpAgreeBody() {
+    useEffect(() => {
+        // 스크립트를 동적으로 생성하여 body에 추가
+        addScript(`${process.env.PUBLIC_URL}/resources/js/setting.js`);
+        addScript(`${process.env.PUBLIC_URL}/resources/js/plugin.js`);
+        addScript(`${process.env.PUBLIC_URL}/resources/js/template.js`);
+        addScript(`${process.env.PUBLIC_URL}/resources/js/common.js`);
+        addScript(`${process.env.PUBLIC_URL}/resources/js/script.js`);
+    }, []);
+
+    // 스크립트를 추가하는 함수
+    const addScript = (src) => {
+        const script = document.createElement("script");
+        script.src = src;
+        script.async = true;
+        // body에 추가
+        document.body.appendChild(script);
+    };
+
     return (
         <div>
             <main className="th-layout-main ">
@@ -100,7 +120,7 @@ function SignUpAgreeBody() {
                                         </div>
                                     </div>
                                 </div>
-                                <Link to="../SignUp/SignUp.jsx " div className="bottom-btn">
+                                <Link to="/SignUp " div className="bottom-btn">
                                     <button className="btnset btnset-lg btnset-rect">일반 회원가입</button>
                                 </Link>
                             </div>

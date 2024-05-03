@@ -1,4 +1,5 @@
 // opilsol-N1 [ZPlVH31uPs]
+
 (function() {
   $(function() {
     $(".opilsol-N1").each(function() {
@@ -77,6 +78,11 @@
           }
         });
       });
+      // 활성화 버튼 찾기 및 이벤트 핸들러 추가
+      $block.find(".accordset-button").on("click", function() {
+        const $accordsetBody = $(this).closest(".accordset-item").find(".accordset-body");
+        $accordsetBody.slideToggle();
+      });
     });
     $(window).on({
       resize: function() {
@@ -90,7 +96,7 @@
     });
     // Header Mobile 1Depth Click
     if (window.innerWidth <= 992) {
-      $block.find(".header-gnbitem").each(function() {
+      $(".opilsol-N1 .header-gnbitem").each(function() {
         const $gnblink = $(this).find(".header-gnblink");
         const $sublist = $(this).find(".header-sublist");
         if ($sublist.length) {
@@ -175,13 +181,11 @@
     function boxHeight() {
       const el = $(".opilsol-N4 .visual-container .control-wrap");
       const txtBox = $(".opilsol-N4 .visual-swiper .visual-text-box");
-      if (el.length > 0 && txtBox.length > 0) {
-        el.css({
-          height: txtBox.height(),
-          transition: "all .5s ",
-        });
-        $(".load").text(el.position().top);
-      }
+      el.css({
+        height: txtBox.height(),
+        transition: "all .5s ",
+      });
+      $(".load").text(el.position().top);
     }
   });
 })();

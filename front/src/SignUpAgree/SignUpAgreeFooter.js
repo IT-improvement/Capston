@@ -1,7 +1,10 @@
 /* eslint-disable */
 
 
+
 function SignUpAgreeFooter() {
+
+
     return (
         <div>
             <footer className="opilsol-N3" data-bid="VpLVJ5K81o">

@@ -7,7 +7,6 @@ function LoginHome() {
     return (
         <div>
             <Helmet>
-                <div>
                     <meta charSet="UTF-8"/>
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
                     <meta httpEquiv="imagetoolbar" content="no"/>
@@ -21,8 +20,6 @@ function LoginHome() {
                     <meta property="og:image" content="https://웹사이트/images/opengraph.png"/>
                     <meta property="og:url" content="https://웹사이트"/>
                     <title>로그인 | capston</title>
-                </div>
-
             </Helmet>
 
             <main className="th-layout-main ">
@@ -54,7 +51,7 @@ function LoginHome() {
                                 <a className="btnset btnset-lg btnset-rect" href="javascript:void(0)">로그인</a>
                             </div>
                             <ul className="contents-list">
-                                <Link to="../SignUpAgree/SignUpAgree.jsx" className="contents-item">
+                                <Link to="/SignUpAgree" className="contents-item">
                                     <a href="javascript:void(0)" className="contents-link">회원가입</a>
                                 </Link>
                                 <li className="contents-item">

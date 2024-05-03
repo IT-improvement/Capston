@@ -1,387 +1,433 @@
 /* eslint-disable */
 
-
+import {Helmet} from "react-helmet";
 function Body() {
     return (
         <div>
-            <main className="th-layout-main ">
-                {/* [S]opilsol-N4 */}
-                <div className="opilsol-N4" data-bid="SnlVh31UzJ">
-                    <div className="visual-container">
-                        <div className="visual-swiper">
-                            <div className="swiper-wrapper">
-                                <div className="swiper-slide">
-                                    <img className="visual-bg" src="../resources/images/visual-1.jpg" alt="메인배너-1"/>
-                                    <div className="visual-text-box">
-                                        <h2 className="visual-title" data-swiper-parallax={-700}>
-                                            <span className="br">미래를 지향하는</span> 젊은 기업 <br/>
-                                            <span className="br">고객 만족도 향상을 위한</span> 솔루션 제공
-                                        </h2>
-                                        <div className="visual-subtitle" data-swiper-parallax={-1000}>
-                                            <span className="br">스포츠,레저 등 다양한 제품의 서비스로</span> 고객 만족을 향상시키기 위해 최고의 솔루션을
-                                            제공합니다.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="swiper-slide">
-                                    <img className="visual-bg" src="../resources/images/visual-2.jpg" alt="메인배너-2"/>
-                                    <div className="visual-text-box">
-                                        <h2 className="visual-title" data-swiper-parallax={-700}>
-                                            <span className="br">미래를 지향하는</span> 젊은 기업 <br/>
-                                            <span className="br">고객 만족도 향상을 위한</span> 솔루션 제공
-                                        </h2>
-                                        <div className="visual-subtitle" data-swiper-parallax={-1300}>
-                                            <span className="br">스포츠,레저 등 다양한 제품의 서비스로</span> 고객 만족을 향상시키기 위해 최고의 솔루션을
-                                            제공합니다.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="swiper-slide">
-                                    <img className="visual-bg" src="../resources/images/visual-3.jpg" alt="메인배너-3"/>
-                                    <div className="visual-text-box">
-                                        <h2 className="visual-title" data-swiper-parallax={-700}>
-                                            <span className="br">미래를 지향하는</span> 젊은 기업 <br/>
-                                            <span className="br">고객 만족도 향상을 위한</span> 솔루션 제공
-                                        </h2>
-                                        <div className="visual-subtitle" data-swiper-parallax={-1300}>
-                                            <span className="br">스포츠,레저 등 다양한 제품의 서비스로</span> 고객 만족을 향상시키기 위해 최고의 솔루션을
-                                            제공합니다.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="control-wrap">
-                                <div className="pagination_fraction">
-                                    <span className="current"/>
-                                    <span className="all"/>
-                                </div>
-                                <div className="control-bottom">
-                                    <div className="swiper-pagination"/>
-                                    <div className="swiper-button-pause">
-                                        <img src="../resources/icons/ico_pause.svg" alt="스와이퍼 멈춤버튼"/>
-                                    </div>
-                                    <div className="swiper-button-play">
-                                        <img src="../resources/icons/ico_play.svg" alt="스와이퍼 재생버튼"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* [E]opilsol-N4 */}
-                {/* [S]opilsol-N5 */}
-                <div className="opilsol-N5" data-bid="PeLvH31V5S">
-                    <div className="content-container">
-                        <div className="container-md">
-                            <div className="textset">
-                                <h2 className="textset-tit">Opil Product</h2>
-                                <p className="textset-desc h5">성공적인 비즈니스를 위한 맞춤형 솔루션 제공</p>
-                            </div>
-                        </div>
-                        <div className="container-md">
-                            <div className="slide-container">
-                                <div className="swiper-wrapper">
-                                    <div className="swiper-slide">
-                                        <a className="cardset cardset-border" href="javascript:void(0);">
-                                            <figure className="cardset-figure">
-                                                <img className="cardset-img" src="../resources/images/m-sec1-img-1.jpg"
-                                                     alt="이미지"/>
-                                            </figure>
-                                            <div className="cardset-body">
-                                                <h5 className="cardset-tit">스포츠센터</h5>
-                                                <p className="cardset-desc">컴퓨터에서 동작하는 프로그램이나 어플리케이션</p>
-                                                <span
-                                                    className="btnset btnset-text btnset-icon icon-right btnset-sm">자세히보기</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <a className="cardset cardset-border" href="javascript:void(0);">
-                                            <figure className="cardset-figure">
-                                                <img className="cardset-img" src="../resources/images/m-sec1-img-2.jpg"
-                                                     alt="이미지"/>
-                                            </figure>
-                                            <div className="cardset-body">
-                                                <h5 className="cardset-tit">공공 체육문화시설</h5>
-                                                <p className="cardset-desc">소프트웨어를 이용하여 문제를 해결하거나 비즈니스 목적을 달성하기 위한
-                                                    솔루션소프트웨어를 이용하여 문제를 해결하거나 비즈니스</p>
-                                                <span
-                                                    className="btnset btnset-text btnset-icon icon-right btnset-sm">자세히보기</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <a className="cardset cardset-border" href="javascript:void(0);">
-                                            <figure className="cardset-figure">
-                                                <img className="cardset-img" src="../resources/images/m-sec1-img-3.jpg"
-                                                     alt="이미지"/>
-                                            </figure>
-                                            <div className="cardset-body">
-                                                <h5 className="cardset-tit">아파트 커뮤니티</h5>
-                                                <p className="cardset-desc">컴퓨터에서 동작하는 프로그램이나 어플리케이션</p>
-                                                <span
-                                                    className="btnset btnset-text btnset-icon icon-right btnset-sm">자세히보기</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <a className="cardset cardset-border" href="javascript:void(0);">
-                                            <figure className="cardset-figure">
-                                                <img className="cardset-img" src="../resources/images/m-sec1-img-4.jpg"
-                                                     alt="이미지"/>
-                                            </figure>
-                                            <div className="cardset-body">
-                                                <h5 className="cardset-tit">모바일 솔루션</h5>
-                                                <p className="cardset-desc">컴퓨터에서 동작하는 프로그램이나 어플리케이션</p>
-                                                <span
-                                                    className="btnset btnset-text btnset-icon icon-right btnset-sm">자세히보기</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <a className="cardset cardset-border" href="javascript:void(0);">
-                                            <figure className="cardset-figure">
-                                                <img className="cardset-img" src="../resources/images/m-sec1-img-1.jpg"
-                                                     alt="이미지"/>
-                                            </figure>
-                                            <div className="cardset-body">
-                                                <h5 className="cardset-tit">스포츠센터</h5>
-                                                <p className="cardset-desc">컴퓨터에서 동작하는 프로그램이나 어플리케이션</p>
-                                                <span
-                                                    className="btnset btnset-text btnset-icon icon-right btnset-sm">자세히보기</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <a className="cardset cardset-border" href="javascript:void(0);">
-                                            <figure className="cardset-figure">
-                                                <img className="cardset-img" src="../resources/images/m-sec1-img-2.jpg"
-                                                     alt="이미지"/>
-                                            </figure>
-                                            <div className="cardset-body">
-                                                <h5 className="cardset-tit">공공 체육문화시설</h5>
-                                                <p className="cardset-desc">소프트웨어를 이용하여 문제를 해결하거나 비즈니스 목적을 달성하기 위한
-                                                    솔루션소프트웨어를 이용하여 문제를 해결하거나 비즈니스</p>
-                                                <span
-                                                    className="btnset btnset-text btnset-icon icon-right btnset-sm">자세히보기</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <a className="cardset cardset-border" href="javascript:void(0);">
-                                            <figure className="cardset-figure">
-                                                <img className="cardset-img" src="../resources/images/m-sec1-img-3.jpg"
-                                                     alt="이미지"/>
-                                            </figure>
-                                            <div className="cardset-body">
-                                                <h5 className="cardset-tit">아파트 커뮤니티</h5>
-                                                <p className="cardset-desc">컴퓨터에서 동작하는 프로그램이나 어플리케이션</p>
-                                                <span
-                                                    className="btnset btnset-text btnset-icon icon-right btnset-sm">자세히보기</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="swiper-slide">
-                                        <a className="cardset cardset-border" href="javascript:void(0);">
-                                            <figure className="cardset-figure">
-                                                <img className="cardset-img" src="../resources/images/m-sec1-img-4.jpg"
-                                                     alt="이미지"/>
-                                            </figure>
-                                            <div className="cardset-body">
-                                                <h5 className="cardset-tit">모바일 솔루션</h5>
-                                                <p className="cardset-desc">컴퓨터에서 동작하는 프로그램이나 어플리케이션</p>
-                                                <span
-                                                    className="btnset btnset-text btnset-icon icon-right btnset-sm">자세히보기</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="swiper-control">
-                                <div className="swiper-button-prev"/>
-                                <div className="swiper-button-next"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* [E]opilsol-N5 */}
-                {/* [S]opilsol-N6 */}
-                <div className="opilsol-N6" data-bid="iPLVh31VFG">
-                    <div className="content-container">
-                        <div className="container-md ">
-                            <div className="textset con-tit">
-                                <h2 className="textset-tit h1 ff-po">Opil Business</h2>
-                                <p className="textset-desc">아이디어를 활용하여 항상 혁신적인 솔루션을 제공</p>
-                            </div>
-                        </div>
-                        <div className="container-md">
-                            <div className="content-group odd">
-                                <figure className="img-box order-1">
-                                    <img src="../resources/images/m-sce2-img-1.jpg" alt="이미지"/>
-                                </figure>
-                                <div className="text-link-box order-2">
-                                    <div className="textset">
-                                        <h2 className="textset-tit h2">다양한 업무를 자동화하고 <br/> 효율적으로 처리 </h2>
-                                        <p className="textset-desc">회원 관리, 예약 관리, 결제 관리, 트레이닝 관리 등 <br/> 다양한 기능을 제공하며 각
-                                            제품마다 특성과 장단점이 있으므로 선택 시 고려해야 할 사항이 많습니다. </p>
-                                        <a className="btnset btnset-icon icon-right btnset-lg justify-content-between"
-                                           href="javascript:void(0)">자세히 보기</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="container-md">
-                            <div className="content-group even">
-                                <figure className="img-box order-2">
-                                    <img src="../resources/images/m-sce2-img-2.jpg" alt="이미지"/>
-                                </figure>
-                                <div className="text-link-box order-1">
-                                    <div className="textset">
-                                        <h2 className="textset-tit h2">
-                                            <span className="br">예약 관리 기능은</span> 간편하게 예약을 받을 수 있는 <br/> 시스템을 제공
-                                        </h2>
-                                        <p className="textset-desc">회원 관리, 예약 관리, 결제 관리, 트레이닝 관리 등 <br/> 다양한 기능을 제공하며 각
-                                            제품마다 특성과 장단점이 있으므로 선택 시 고려해야 할 사항이 많습니다. </p>
-                                        <a className="btnset btnset-icon icon-right btnset-lg btnset-dark justify-content-between"
-                                           href="javascript:void(0)">자세히 보기</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* [E]opilsol-N6 */}
-                {/* [S]opilsol-N7 */}
-                <div className="opilsol-N7" data-bid="MClvh31vn9">
-                    <div className="sub-visual-bg">
-                        <img className="pc-img" src="../resources/images/sub-visual.jpg" alt="이미지"/>
-                        <img className="mobile-img" src="../resources/images/sub-visual-m.jpg" alt="이미지"/>
-                    </div>
-                    <div className="content-container">
-                        <div className="container-md">
-                            <div className="textset">
-                                <h2 className="textset-tit h1 ff-po co-text5">Solution for a Better Future</h2>
-                                <p className="textset-desc">스포츠 센터 솔루션은 센터의 업무를 더욱 효율적으로 처리하고, <br/> 회원들에게 더 나은 서비스를
-                                    제공하기 위해 필요한 소프트웨어입니다. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* [E]opilsol-N7 */}
-                {/* [S]opilsol-N8 */}
-                <div className="opilsol-N8" data-bid="RwLvh31vvg">
-                    <div className="container-lg">
-                        <div className="content-container">
-                            <div className="left">
-                                <div className="textset">
-                                    <h2 className="textset-tit h1 ff-po">Opil News</h2>
-                                    <p className="textset-desc h5 fw-500">템플릿솔루션의 새로운 소식을 알려드립니다</p>
-                                    <div className="swiper-control">
-                                        <div className="swiper-button-next"/>
-                                        <div className="swiper-button-prev"/>
-                                    </div>
-                                    <div className="btnset-position">
-                                        <a className="btnset btnset-icon btnset-lg icon-right btnset-dark justify-content-between"
-                                           href="javascript:void(0)">자세히 보기</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="right">
-                                <div className="slide-container">
-                                    <div className="swiper-wrapper">
-                                        <div className="swiper-slide">
-                                            <a className="link-slide" href="javascript:void(0);">
-                                                <div className="cardset cardset-border">
-                                                    <figure className="cardset-figure">
-                                                        <img className="cardset-img"
-                                                             src="../resources/images/m-sec3-img-1.jpg" alt="이미지"/>
-                                                    </figure>
-                                                    <div className="cardset-body">
-                                                        <h5 className="cardset-tit">고객불만제로를 위한 집체교육을 실시하였습니다.</h5>
-                                                        <p className="cardset-txt">2000-01-01</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <a className="link-slide" href="javascript:void(0);">
-                                                <div className="cardset cardset-border">
-                                                    <figure className="cardset-figure">
-                                                        <img className="cardset-img"
-                                                             src="../resources/images/m-sec3-img-2.jpg" alt="이미지"/>
-                                                    </figure>
-                                                    <div className="cardset-body">
-                                                        <h5 className="cardset-tit">고객불만제로를 위한 집체교육을 실시하였습니다.</h5>
-                                                        <p className="cardset-txt">2000-01-01</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <a className="link-slide" href="javascript:void(0);">
-                                                <div className="cardset cardset-border">
-                                                    <figure className="cardset-figure">
-                                                        <img className="cardset-img"
-                                                             src="../resources/images/m-sec3-img-3.jpg" alt="이미지"/>
-                                                    </figure>
-                                                    <div className="cardset-body">
-                                                        <h5 className="cardset-tit">고객불만제로를 위한 집체교육을 실시하였습니다.</h5>
-                                                        <p className="cardset-txt">2000-01-01</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <a className="link-slide" href="javascript:void(0);">
-                                                <div className="cardset cardset-border">
-                                                    <figure className="cardset-figure">
-                                                        <img className="cardset-img"
-                                                             src="../resources/images/m-sec3-img-1.jpg" alt="이미지"/>
-                                                    </figure>
-                                                    <div className="cardset-body">
-                                                        <h5 className="cardset-tit">고객불만제로를 위한 집체교육을 실시하였습니다.</h5>
-                                                        <p className="cardset-txt">2000-01-01</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <a className="link-slide" href="javascript:void(0);">
-                                                <div className="cardset cardset-border">
-                                                    <figure className="cardset-figure">
-                                                        <img className="cardset-img"
-                                                             src="../resources/images/m-sec3-img-2.jpg" alt="이미지"/>
-                                                    </figure>
-                                                    <div className="cardset-body">
-                                                        <h5 className="cardset-tit">고객불만제로를 위한 집체교육을 실시하였습니다.</h5>
-                                                        <p className="cardset-txt">2000-01-01</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <a className="link-slide" href="javascript:void(0);">
-                                                <div className="cardset cardset-border">
-                                                    <figure className="cardset-figure">
-                                                        <img className="cardset-img"
-                                                             src="../resources/images/m-sec3-img-3.jpg" alt="이미지"/>
-                                                    </figure>
-                                                    <div className="cardset-body">
-                                                        <h5 className="cardset-tit">고객불만제로를 위한 집체교육을 실시하였습니다.</h5>
-                                                        <p className="cardset-txt">2000-01-01</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* [E]opilsol-N8 */}
-            </main>
 
+        <div className="main-container">
+            <div className="main_body">
+                <article>
+                    <div className="empty_box"/>
+                    <div className="feed">
+                        <div className="feed_id">
+                            <div className="id_round">
+                                <div className="id_box">
+                                    <div className="id_box_img">
+                                        <img className="id_img" src="/resources2/img/picture8.png" alt="내 프로필"/>
+                                    </div>
+                                    <div className="id_container">
+                                        <div className="id_name">s_sewon</div>
+                                        <div className="place">제주 협재 해수욕장</div>
+                                    </div>
+                                </div>
+                                <div className="more_details">
+                                    <img src="/resources2/img/more.png" alt="더보기"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="feed_picture">
+                            <img src="/resources2/img/picture7.png" alt="피드 사진"/>
+                        </div>
+                        {/*feedbottom*/}
+                        <div className="feed_bottom">
+                            <div className="emoticon_box">
+                                <div className="emoticon_box2">
+                                    <div className="heart_box">
+                                        <img className="heart" src="/resources2/img/heart.png" alt="하트"/>
+                                    </div>
+                                    <div className="comment_box">
+                                        <img className="coment" src="/resources2/img/comment.png" alt="코멘트"/>
+                                    </div>
+                                    <div className="direct_box">
+                                        <img className="direct" src="/resources2/img/direct.png" alt="종이비행기"/>
+                                    </div>
+                                </div>
+                                <div className="bookmark_box">
+                                    <img className="bookmark" src="/resources2/img/bookmark.png" alt="공유"/>
+                                </div>
+                            </div>
+                        </div>
+                        {/*/feedbottom*/}
+                        <div className="feed_like_box">
+                            <div className="feed_like_picture">
+                                <img className="feed_like_peolpe" src="/resources2/img/picture8.png" alt="세원"/>
+                            </div>
+                            <div className="feed_like">s_sewon님 외 263명이 좋아합니다.</div>
+                        </div>
+                        <div className="feed_article">
+                            <div className="feed_article_box">
+                                <div className="comments_container">
+                                    <div className="comments">s_sewon 바람아 그만 불어줘 제발~~...</div>
+                                    <div className="comments1">더 보기</div>
+                                </div>
+                                <div className="comments1">댓글 <span id="count"/> 모두 보기</div>
+                                <div className="comments1_box">
+                                    <div className="comments">sunmerrr 세원님 너무 멋져요!!</div>
+                                    <div className="comments">aida_shin.y 와 세원님 완전 화보</div>
+                                    <div className="comments">dooreplay 세원님 정말 짱이에요!</div>
+                                </div>
+                                <div className="new_comments">
+                                </div>
+                                <div className="comments2">1일 전</div>
+                            </div>
+                        </div>
+                        <div className="inputContainer">
+                            <div className="type_comment">
+                                <input className="inputBox" type="text" placeholder="댓글 달기..."/>
+                            </div>
+                            <span>
+            <button className="buttonBox" type="summit">게시</button>
+          </span>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article>
+                    <div className="empty_box"/>
+                    <div className="feed">
+                        <div className="feed_id">
+                            <div className="id_round">
+                                <div className="id_box">
+                                    <div className="id_box_img">
+                                        <img className="id_img" src="/resources2/img/picture8.png" alt="내 프로필"/>
+                                    </div>
+                                    <div className="id_container">
+                                        <div className="id_name">s_sewon</div>
+                                        <div className="place">제주 협재 해수욕장</div>
+                                    </div>
+                                </div>
+                                <div className="more_details">
+                                    <img src="/resources2/img/more.png" alt="더보기"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="feed_picture">
+                            <img src="/resources2/img/picture7.png" alt="피드 사진"/>
+                        </div>
+                        {/*feedbottom*/}
+                        <div className="feed_bottom">
+                            <div className="emoticon_box">
+                                <div className="emoticon_box2">
+                                    <div className="heart_box">
+                                        <img className="heart" src="/resources2/img/heart.png" alt="하트"/>
+                                    </div>
+                                    <div className="comment_box">
+                                        <img className="coment" src="/resources2/img/comment.png" alt="코멘트"/>
+                                    </div>
+                                    <div className="direct_box">
+                                        <img className="direct" src="/resources2/img/direct.png" alt="종이비행기"/>
+                                    </div>
+                                </div>
+                                <div className="bookmark_box">
+                                    <img className="bookmark" src="/resources2/img/bookmark.png" alt="공유"/>
+                                </div>
+                            </div>
+                        </div>
+                        {/*/feedbottom*/}
+                        <div className="feed_like_box">
+                            <div className="feed_like_picture">
+                                <img className="feed_like_peolpe" src="/resources2/img/picture8.png" alt="세원"/>
+                            </div>
+                            <div className="feed_like">s_sewon님 외 263명이 좋아합니다.</div>
+                        </div>
+                        <div className="feed_article">
+                            <div className="feed_article_box">
+                                <div className="comments_container">
+                                    <div className="comments">s_sewon 바람아 그만 불어줘 제발~~...</div>
+                                    <div className="comments1">더 보기</div>
+                                </div>
+                                <div className="comments1">댓글 <span id="count"/> 모두 보기</div>
+                                <div className="comments1_box">
+                                    <div className="comments">sunmerrr 세원님 너무 멋져요!!</div>
+                                    <div className="comments">aida_shin.y 와 세원님 완전 화보</div>
+                                    <div className="comments">dooreplay 세원님 정말 짱이에요!</div>
+                                </div>
+                                <div className="new_comments">
+                                </div>
+                                <div className="comments2">1일 전</div>
+                            </div>
+                        </div>
+                        <div className="inputContainer">
+                            <div className="type_comment">
+                                <input className="inputBox" type="text" placeholder="댓글 달기..."/>
+                            </div>
+                            <span>
+            <button className="buttonBox" type="summit">게시</button>
+          </span>
+                        </div>
+                    </div>
+                </article>
+
+
+                <div className="additional-line"> {/* 추가된 줄 */}
+                    <article>
+                        <div className="empty_box"/>
+                        <div className="feed">
+                            <div className="feed_id">
+                                <div className="id_round">
+                                    <div className="id_box">
+                                        <div className="id_box_img">
+                                            <img className="id_img" src="/resources2/img/picture8.png" alt="내 프로필"/>
+                                        </div>
+                                        <div className="id_container">
+                                            <div className="id_name">s_sewon</div>
+                                            <div className="place">제주 협재 해수욕장</div>
+                                        </div>
+                                    </div>
+                                    <div className="more_details">
+                                        <img src="/resources2/img/more.png" alt="더보기"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="feed_picture">
+                                <img src="/resources2/img/picture7.png" alt="피드 사진"/>
+                            </div>
+                            {/*feedbottom*/}
+                            <div className="feed_bottom">
+                                <div className="emoticon_box">
+                                    <div className="emoticon_box2">
+                                        <div className="heart_box">
+                                            <img className="heart" src="/resources2/img/heart.png" alt="하트"/>
+                                        </div>
+                                        <div className="comment_box">
+                                            <img className="coment" src="/resources2/img/comment.png" alt="코멘트"/>
+                                        </div>
+                                        <div className="direct_box">
+                                            <img className="direct" src="/resources2/img/direct.png" alt="종이비행기"/>
+                                        </div>
+                                    </div>
+                                    <div className="bookmark_box">
+                                        <img className="bookmark" src="/resources2/img/bookmark.png" alt="공유"/>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*/feedbottom*/}
+                            <div className="feed_like_box">
+                                <div className="feed_like_picture">
+                                    <img className="feed_like_peolpe" src="/resources2/img/picture8.png" alt="세원"/>
+                                </div>
+                                <div className="feed_like">s_sewon님 외 263명이 좋아합니다.</div>
+                            </div>
+                            <div className="feed_article">
+                                <div className="feed_article_box">
+                                    <div className="comments_container">
+                                        <div className="comments">s_sewon 바람아 그만 불어줘 제발~~...</div>
+                                        <div className="comments1">더 보기</div>
+                                    </div>
+                                    <div className="comments1">댓글 <span id="count"/> 모두 보기</div>
+                                    <div className="comments1_box">
+                                        <div className="comments">sunmerrr 세원님 너무 멋져요!!</div>
+                                        <div className="comments">aida_shin.y 와 세원님 완전 화보</div>
+                                        <div className="comments">dooreplay 세원님 정말 짱이에요!</div>
+                                    </div>
+                                    <div className="new_comments">
+                                    </div>
+                                    <div className="comments2">1일 전</div>
+                                </div>
+                            </div>
+                            <div className="inputContainer">
+                                <div className="type_comment">
+                                    <input className="inputBox" type="text" placeholder="댓글 달기..."/>
+                                </div>
+                                <span>
+            <button className="buttonBox" type="summit">게시</button>
+          </span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article>
+                        <div className="empty_box"/>
+                        <div className="feed">
+                            <div className="feed_id">
+                                <div className="id_round">
+                                    <div className="id_box">
+                                        <div className="id_box_img">
+                                            <img className="id_img" src="/resources2/img/picture8.png" alt="내 프로필"/>
+                                        </div>
+                                        <div className="id_container">
+                                            <div className="id_name">s_sewon</div>
+                                            <div className="place">제주 협재 해수욕장</div>
+                                        </div>
+                                    </div>
+                                    <div className="more_details">
+                                        <img src="/resources2/img/more.png" alt="더보기"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="feed_picture">
+                                <img src="/resources2/img/picture7.png" alt="피드 사진"/>
+                            </div>
+                            {/*feedbottom*/}
+                            <div className="feed_bottom">
+                                <div className="emoticon_box">
+                                    <div className="emoticon_box2">
+                                        <div className="heart_box">
+                                            <img className="heart" src="/resources2/img/heart.png" alt="하트"/>
+                                        </div>
+                                        <div className="comment_box">
+                                            <img className="coment" src="/resources2/img/comment.png" alt="코멘트"/>
+                                        </div>
+                                        <div className="direct_box">
+                                            <img className="direct" src="/resources2/img/direct.png" alt="종이비행기"/>
+                                        </div>
+                                    </div>
+                                    <div className="bookmark_box">
+                                        <img className="bookmark" src="/resources2/img/bookmark.png" alt="공유"/>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*/feedbottom*/}
+                            <div className="feed_like_box">
+                                <div className="feed_like_picture">
+                                    <img className="feed_like_peolpe" src="/resources2/img/picture8.png" alt="세원"/>
+                                </div>
+                                <div className="feed_like">s_sewon님 외 263명이 좋아합니다.</div>
+                            </div>
+                            <div className="feed_article">
+                                <div className="feed_article_box">
+                                    <div className="comments_container">
+                                        <div className="comments">s_sewon 바람아 그만 불어줘 제발~~...</div>
+                                        <div className="comments1">더 보기</div>
+                                    </div>
+                                    <div className="comments1">댓글 <span id="count"/> 모두 보기</div>
+                                    <div className="comments1_box">
+                                        <div className="comments">sunmerrr 세원님 너무 멋져요!!</div>
+                                        <div className="comments">aida_shin.y 와 세원님 완전 화보</div>
+                                        <div className="comments">dooreplay 세원님 정말 짱이에요!</div>
+                                    </div>
+                                    <div className="new_comments">
+                                    </div>
+                                    <div className="comments2">1일 전</div>
+                                </div>
+                            </div>
+                            <div className="inputContainer">
+                                <div className="type_comment">
+                                    <input className="inputBox" type="text" placeholder="댓글 달기..."/>
+                                </div>
+                                <span>
+            <button className="buttonBox" type="summit">게시</button>
+          </span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <aside>
+                    <div className="feed_right_container">
+                        <div className="my_profile">
+                            <div className="profile_none">
+                                <div className="my_profile_box1">
+                                    <img src="/resources2/img/picture8.png" alt="내 프로필"/>
+                                </div>
+                                <div className="my_profile_id">s_sewon</div>
+                            </div>
+                        </div>
+                        <div className="recommendation_box">
+                            <div className="recommendation">회원님을 위한 추천</div>
+                            <div className="comment">모두 보기</div>
+                        </div>
+                        <div className="users">
+                            <div className="user">
+                                <div className="my_profile_box2">
+                                    <img src="/resources2/img/p1.jpg" alt="내 프로필"/>
+                                </div>
+                                <div className="my_profile_main_box">
+                                    <div className="my_profile_id_box">
+                                        <div className="my_profile_id1">bubugym</div>
+                                        <div className="my_profile_id2">0427ys님 외 4명이 팔로우합니다</div>
+                                    </div>
+                                    <div className="follow">팔로우</div>
+                                </div>
+                            </div>
+                            <div className="user">
+                                <div className="my_profile_box2">
+                                    <img src="/resources2/img/p2.jpg" alt="내 프로필"/>
+                                </div>
+                                <div className="my_profile_main_box">
+                                    <div className="my_profile_id_box">
+                                        <div className="my_profile_id1">jj.www</div>
+                                        <div className="my_profile_id2">hello님 외 7명이 팔로우합니다</div>
+                                    </div>
+                                    <div className="follow">팔로우</div>
+                                </div>
+                            </div>
+                            <div className="user">
+                                <div className="my_profile_box2">
+                                    <img src="/resources2/img/p3.jpg" alt="내 프로필"/>
+                                </div>
+                                <div className="my_profile_main_box">
+                                    <div className="my_profile_id_box">
+                                        <div className="my_profile_id1">choco1</div>
+                                        <div className="my_profile_id2">hs.hon1님 외 5명이 팔로우합니다</div>
+                                    </div>
+                                    <div className="follow">팔로우</div>
+                                </div>
+                            </div>
+                            <div className="user">
+                                <div className="my_profile_box2">
+                                    <img src="/resources2/img/p4.jpg" alt="내 프로필"/>
+                                </div>
+                                <div className="my_profile_main_box">
+                                    <div className="my_profile_id_box">
+                                        <div className="my_profile_id1">aaawww11</div>
+                                        <div className="my_profile_id2">world님 외 2명이 팔로우합니다</div>
+                                    </div>
+                                    <div className="follow">팔로우</div>
+                                </div>
+                            </div>
+                            <div className="user">
+                                <div className="my_profile_box2">
+                                    <img src="/resources2/img/p5.jpg" alt="내 프로필"/>
+                                </div>
+                                <div className="my_profile_main_box">
+                                    <div className="my_profile_id_box">
+                                        <div className="my_profile_id1">lalahihi123</div>
+                                        <div className="my_profile_id2">hi.son님 외 1명이 팔로우합니다</div>
+                                    </div>
+                                    <div className="follow">팔로우</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="other_box">
+                            <div className="other1">
+                                <span className="span1">소개</span>
+                                <span className="span1">도움말</span>
+                                <span className="span1">∙</span>
+                                <span className="span1">홍보 센터</span>
+                                <span className="span1">∙</span>
+                                <span className="span1">API</span>
+                                <span className="span1">∙</span>
+                                <span className="span1">채용 정보</span>
+                                <span className="span1">∙</span>
+                                <span className="span1">개인정보처리방침</span>
+                                <span className="span1">∙</span><br/>
+                            </div>
+                            <div className="other2">
+                                <span className="span1">약관</span>
+                                <span className="span1">∙</span>
+                                <span className="span1">위치</span>
+                                <span className="span1">∙</span>
+                                <span className="span1">인기 계정</span>
+                                <span className="span1">∙</span>
+                                <span className="span1">해시태그</span>
+                                <span className="span1">∙</span>
+                                <span className="span1">언어</span>
+                            </div>
+                        </div>
+                        <div className="other_box">
+                            <span className="span1">© 2020 INSTAGRAM FROM FACEBOOK</span>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+            {/*    <div className="next">
+            </div>*/}
+        </div>
         </div>
     );
 }
