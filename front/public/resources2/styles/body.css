@@ -1,4 +1,6 @@
+
 body {
+
   background-color: #fafafa;
 
 
@@ -8,6 +10,7 @@ body {
 .main_container {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px; /* 각 요소와의 상단 간격 조정 */
 
 }
 
@@ -20,18 +23,18 @@ article {
 
 }
 
-.main_body {
+
+.main_body, .additional-line {
   flex: 1;
   display: flex;
   position: relative;
-  text-align: center;
+  text-align: center; /* 기사를 중앙으로 정렬합니다. */
   justify-content: center;
   left: 20px;
-  flex-direction: column; /* 세로 방향으로 요소를 배치 */
-  align-items: center; /* 요소를 수직 가운데 정렬 */
-
+  flex-direction: column; /* 세로 방향으로 요소를 배치합니다. */
+  align-items: center; /* 요소를 수직 가운데 정렬합니다. */
+  width: 100%; /* 부모 요소에 맞춰 전체 너비를 확보합니다. */
 }
-
 
 aside {
   position: fixed; /* 다른 요소에 영향을 주지 않도록 고정 위치 */
@@ -185,7 +188,7 @@ aside {
 }
 
 .feed_picture img {
-  width: 598px;
+  width: 650px;
   height: 598px;
 }
 

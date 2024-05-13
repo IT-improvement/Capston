@@ -12,11 +12,9 @@ function Header() {
 
             <header>
                 <div className="left_box">
-                    <div className="camera_box">
+                    <Link to="/Main" className="camera_box">
                         <img className="logo" src="/resources2/img/logo.png" alt="인스타 로고"/>
-
-
-                    </div>
+                    </Link>
                     <div className="line">|</div>
                     <div className="logo_box">
                         <text className="logoFont">EveryStarGram</text>
@@ -29,9 +27,9 @@ function Header() {
     </div>
   </span>
                 <div className="right_box">
-                    <div className="home_box">
+                    <Link to="/NewPost" className="home_box">
                         <img className="img_size" src="/resources2/img/home.png" alt="탐색"/>
-                    </div>
+                    </Link>
                     <div className="direct_box">
                         <img className="img_size" src="/resources2/img/direct.png" alt="하트"/>
                     </div>
@@ -45,7 +43,7 @@ function Header() {
                              src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png"
                              alt="내 프로필"/>
                     </div>
-                    <Link to="/Login" div className="myProfile_box_2">
+                    <Link to="/Login" className="myProfile_box_2">
                         <img className="my_profile" src="/resources2/img/picture8.png" alt="내 프로필"/>
                     </Link>
                 </div>
