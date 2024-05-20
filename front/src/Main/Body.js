@@ -1,25 +1,34 @@
-        /* eslint-disable */
+/* eslint-disable */
 
-        function Body() {
-            return (
-                <div>
-                    <div>
-                        <img width="48" height="48" src="https://img.icons8.com/pulsar-color/48/noticeboard.png"
-                             alt="noticeboard"/>
-                    </div>  
-                    <div className="main_container">
-                        <div className="main_body_iframe">
-                            <iframe title="main_body" src="/main_body_content" className="iframe"></iframe>
-                        </div>
+import {useState} from "react";
+import {Link} from "react-router-dom";
 
-                        <div className="additional_line_iframe"> {/* 추가된 줄 */}
+function Body() {
+    const [hovered, setHovered] = useState(false);
 
-                            <iframe title="additional_line" src="/additional_line_content" className="iframe"></iframe>
-
-                        </div>
-                    </div>
+    return (
+        <div>
+            <div className="icon-container" >
+                <div className="allschool">
+                    <Link to="/allschool">
+                    <img width="48" height="48" src="https://img.icons8.com/pulsar-color/48/school-building.png"
+                         alt="school-building"/></Link>
+                    <Link to="/myschool">
+                    <img className="myschool" width="48" height="48" src="https://img.icons8.com/pulsar-color/48/noticeboard.png"
+                         alt="noticeboard"/></Link>
                 </div>
-            );
-        }
+            </div>
 
-        export default Body;
+            <div className="main_container">
+                <div className="main_body_iframe">
+                    <iframe title="main_body" src="/main_body_content" className="iframe"></iframe>
+                </div>
+                <div className="additional_line_iframe">
+                    <iframe title="additional_line" src="/additional_line_content" className="iframe"></iframe>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Body;

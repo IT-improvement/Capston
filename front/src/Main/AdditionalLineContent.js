@@ -12,7 +12,6 @@ function AdditionalLineContent() {
         <div className="additional-line">
 
             <article className="artclon">
-                <div className="empty_box"/>
                 <div className="feed">
                     <div className="feed_id">
                         <div className="id_round">
@@ -93,7 +92,6 @@ function AdditionalLineContent() {
 
 
             <article>
-                <div className="empty_box"/>
                 <div className="feed">
                     <div className="feed_id">
                         <div className="id_round">
