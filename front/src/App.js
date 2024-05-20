@@ -6,6 +6,7 @@ import SignUp from "./SignUp/SignUp";
 import NewPost from "./NewPost/NewPost";
 import MainBodyContent from "./Main/MainBodyContent";
 import AdditionalLineContent from "./Main/AdditionalLineContent";
+import AllSchoolNotice from "./AllSchoolNotice/AllSchoolNotice";
 
 
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/SignUp" element={<SignUp/>}/>
             <Route path="/NewPost" element={<NewPost/>}/>
             <Route path="/Main" element={<Main/>}/>
+            <Route path="/AllSchoolNotice" element={<AllSchoolNotice/>}/>
           </Routes>
         </BrowserRouter>
       </div>

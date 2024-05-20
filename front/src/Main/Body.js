@@ -10,7 +10,7 @@ function Body() {
         <div>
             <div className="icon-container" >
                 <div className="allschool">
-                    <Link to="/allschool">
+                    <Link to="/allSchoolNotice" className=" ">
                     <img width="48" height="48" src="https://img.icons8.com/pulsar-color/48/school-building.png"
                          alt="school-building"/></Link>
                     <Link to="/myschool">
