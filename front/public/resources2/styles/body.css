@@ -1,28 +1,43 @@
-
 body {
-
   background-color: #fafafa;
-
-
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
 }
 
-/* .next 안에 있는 article 요소에 대한 스타일 */
+::-webkit-scrollbar {
+  display: none;
+}
 .main_container {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px; /* 각 요소와의 상단 간격 조정 */
-
+  margin: 10px;
 }
 
+.main_body_iframe,
+.additional_line_iframe {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iframe {
+  width: 100%;
+  height: 100vh; /* 부모 요소의 높이를 사용하여 iframe 높이 설정 */
+  border: none;
+}
+
+/* 이하 기존 스타일 */
 article {
   position: relative;
-  right: 0px;
   background-color: #fafafa;
-  border-radius: 3px;
+  border-radius: 10px;
   margin: 30px;
-
+  display: grid;
+  place-items: center; /* 가로와 세로 중앙 정렬 */
+  right: 20px;
 }
-
 
 .main_body, .additional-line {
   flex: 1;
@@ -30,7 +45,6 @@ article {
   position: relative;
   text-align: center; /* 기사를 중앙으로 정렬합니다. */
   justify-content: center;
-  left: 20px;
   flex-direction: column; /* 세로 방향으로 요소를 배치합니다. */
   align-items: center; /* 요소를 수직 가운데 정렬합니다. */
   width: 100%; /* 부모 요소에 맞춰 전체 너비를 확보합니다. */
@@ -41,7 +55,6 @@ aside {
   right: 0; /* 오른쪽에 위치 */
   top: 0; /* 위쪽에 위치 */
   height: 100%; /* 부모 요소의 높이를 사용하여 사이드바의 높이 설정 */
-
 }
 
 .none {
@@ -66,8 +79,6 @@ aside {
   border-radius: 50%;
 }
 
-
-
 .feed_right_container{
   position: sticky;
   width: 450px;
@@ -80,8 +91,8 @@ aside {
   display: flex;
   height: 95px;
   margin: 0px;
-
 }
+
 .recommendation_box {
   display: flex;
   justify-content: space-between;
@@ -93,6 +104,7 @@ aside {
   border-radius: 50%;
   background-color: white;
 }
+
 .sub_story {
   display: flex;
   justify-content: center;
@@ -103,6 +115,7 @@ aside {
   background-image: url("rainbow.png");
   background-size: contain;
 }
+
 .empty_box {
   height: 35px;
 }
@@ -113,7 +126,6 @@ aside {
 }
 
 .feed {
-
   border-radius: 3px;
 }
 
@@ -123,6 +135,7 @@ aside {
   justify-content: center;
   height: 70px;
 }
+
 .id_round {
   display: flex;
   position: absolute;
@@ -148,6 +161,7 @@ aside {
   width: 536px;
   height: 41px;
 }
+
 .id_container{
   display: flex;
   position: relative;
@@ -167,13 +181,15 @@ aside {
   font-size: 14px;
   font-weight: 600;
 }
+
 .place {
   font-size: 12px;
+  color: blue;
 }
 
 .more_details {
   position: relative;
-  right: -550px;
+  right: -600px;
 }
 
 .more_details img {
@@ -182,6 +198,7 @@ aside {
   width: 40px;
   height: 40px;
 }
+
 .feed_picture {
   width: 598px;
   height: 598px;
@@ -204,6 +221,7 @@ aside {
 .emoticon_box2 {
   display: flex;
 }
+
 .emoticon_box2 div {
   display: flex;
   align-items: center;
@@ -216,13 +234,13 @@ aside {
   width: 24px;
   height: 24px;
 }
+
 .bookmark_box {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
-
 }
 
 .bookmark_box img {
@@ -276,43 +294,47 @@ aside {
   flex-direction: column;
   padding: 0 16px 0 16px;
 }
+
 .comments_container {
   display: flex;
 }
+
 .comments {
   font-size: 14px;
   line-height: 18px;
   padding: 2px;
 }
+
 .comments1 {
   padding: 2px;
   font-size: 14px;
   line-height: 18px;
   color: #8e8e8e;
 }
+
 .comments1_box {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  
 }
-.new_comments{
+
+.new_comments {
   display: block;
   text-align: start;
 }
 
-.newCommentBox{
-  padding: 2px;
-  font-size: 14px;
-  line-height: 18px;
-}
-.newCommentBox1{
+.newCommentBox {
   padding: 2px;
   font-size: 14px;
   line-height: 18px;
 }
 
+.newCommentBox1 {
+  padding: 2px;
+  font-size: 14px;
+  line-height: 18px;
+}
 
 .comments2 {
   font-size: 10px;
@@ -331,18 +353,19 @@ aside {
   border-top: 1px solid #efefef;
 }
 
-.inputBox{
+.inputBox {
   background-color: #FAFAFA;
-  font:14px;
+  font: 14px;
   color: black;
   outline: none;
-  width:550px;
+  width: 550px;
   height: 50px;
   border: solid 0px;
 }
-.buttonBox{
+
+.buttonBox {
   background-color: #FAFAFA;
-  color:#C0E0FD;
+  color: #C0E0FD;
   outline: none;
   border: solid 0px;
 }
@@ -377,88 +400,86 @@ aside {
   height: 60px;
   border-radius: 50%;
 }
-.my_profile_id{
+
+.my_profile_id {
   margin-left: 14px;
   font-weight: 400;
   line-height: 18px;
 }
-.my_profile_id1{
-  /* border: 1px solid blue; */
+
+.my_profile_id1 {
   margin-left: 10px;
 }
-.my_profile_id2{
-  /* border: 1px solid blue; */
+
+.my_profile_id2 {
   margin-left: 10px;
 }
 
 .profile_none {
   display: flex;
-  /* border: 1px solid pink; */
   align-items: center;
   position: relative;
   top: 7px;
   left: 30px;
 }
 
-.other_box{
+.other_box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* border:1px solid red; */
   position: relative;
-  left:35px;
-  top:-20px;
-  margin-top:20px;
+  left: 35px;
+  top: -20px;
+  margin-top: 20px;
 }
-
 
 .span1 {
-  font-size:11px;
-  color:#c7c7c7
+  font-size: 11px;
+  color: #c7c7c7;
 }
-
 
 .recommendation_box {
   margin: 10px 120px 10px 40px;
 }
-.comment{
+
+.comment {
   font-size: 12px;
-  color:#262626;
+  color: #262626;
   font-weight: 600;
 }
 
 .users {
   display: flex;
-  /* border: 1px solid paleturquoise; */
   height: 290px;
   flex-direction: column;
 }
 
-
-.my_profile_main_box{
+.my_profile_main_box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  /* border:1px solid black; */
-  width:63%;
+  width: 63%;
 }
 
-.my_profile_id_box{
+.my_profile_id_box {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.my_profile_id1{
+
+.my_profile_id1 {
   font-size: 14px;
   font-weight: 600;
-  color:#262626;
+  color: #262626;
 }
-.my_profile_id2{
+
+.my_profile_id2 {
   font-size: 12px;
-  color:#8e8e8e;
+  color: #8e8e8e;
 }
-.my_prodile_box2{
+
+.my_prodile_box2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -468,37 +489,32 @@ aside {
   background-size: contain;
   flex-direction: column;
 }
+
 .my_profile_box2 img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
-.user{
+
+.user {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height:48px;
-  margin:5px 0 0 40px;
-
+  height: 48px;
+  margin: 5px 0 0 40px;
 }
-.user_box{
+
+.user_box {
   height: 50%;
 }
-.follow{
+
+.follow {
   font-size: 12px;
   font-weight: 600;
-  color:#0095F6;
+  color: #0095F6;
 }
 
 .recommendation {
   font-size: 14px;
   color: #8e8e8e;
 }
-
-
-
-
-
-
-
-

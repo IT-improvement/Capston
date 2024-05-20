@@ -35,3 +35,15 @@ function handleImage(e){
   reader.readAsDataURL(e.target.files[0]);
 }
 
+//사이드바
+function toggleSidebar() {
+  var sidebar = document.getElementById('sidebar');
+  var mainContent = document.getElementById('main-content');
+  if (sidebar.style.left === '-250px') {
+    sidebar.style.left = '0';
+    mainContent.style.marginLeft = '250px';
+  } else {
+    sidebar.style.left = '-250px';
+    mainContent.style.marginLeft = '0';
+  }
+}

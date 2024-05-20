@@ -1,4 +1,5 @@
-/* eslint-disable */
+/*
+/!* eslint-disable *!/
 
 import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
@@ -58,3 +59,4 @@ function SignUpHeader() {
 }
 
 export default SignUpHeader;
+*/

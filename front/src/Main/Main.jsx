@@ -1,8 +1,7 @@
 /* eslint-disable */
-import Header from "./Header";
 import Body from "./Body";
 import {Helmet} from "react-helmet";
-import Sidebar from "./Sidebar";
+import PublicHeader from "../PublicHeader";
 
 
 
@@ -17,8 +16,7 @@ function Main() {
                 <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
             </Helmet>
 
-            <Header/>
-            <Sidebar/>
+            <PublicHeader/>
             <Body/>
 
         </div>

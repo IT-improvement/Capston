@@ -4,10 +4,11 @@ import SingUpAgreeHeader from "./SingUpAgreeHeader";
 import SignUpAgreeBody from "./SignUpAgreeBody";
 import SignUpAgreeFooter from "./SignUpAgreeFooter";
 import {useEffect} from "react";
+import PublicHeader from "../PublicHeader";
 
 
 function SignUpAgree() {
-    useEffect(() => {
+  /*  useEffect(() => {
         // 스크립트를 동적으로 생성하여 body에 추가
         addScript(`${process.env.PUBLIC_URL}/resources/js/setting.js`);
         addScript(`${process.env.PUBLIC_URL}/resources/js/plugin.js`);
@@ -24,10 +25,10 @@ function SignUpAgree() {
         // body에 추가
         document.body.appendChild(script);
     };
-
+*/
     return (
         <div>
-            <SingUpAgreeHeader />
+            <PublicHeader/>
             <SignUpAgreeBody />
             <SignUpAgreeFooter />
         </div>

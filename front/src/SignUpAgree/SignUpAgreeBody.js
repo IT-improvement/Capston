@@ -5,7 +5,7 @@ import {useEffect} from "react";
 
 
 function SignUpAgreeBody() {
-    useEffect(() => {
+/*    useEffect(() => {
         // 스크립트를 동적으로 생성하여 body에 추가
         addScript(`${process.env.PUBLIC_URL}/resources/js/setting.js`);
         addScript(`${process.env.PUBLIC_URL}/resources/js/plugin.js`);
@@ -21,7 +21,7 @@ function SignUpAgreeBody() {
         script.async = true;
         // body에 추가
         document.body.appendChild(script);
-    };
+    };*/
 
     return (
         <div>

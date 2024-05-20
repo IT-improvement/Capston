@@ -1,10 +1,11 @@
+/* eslint-disable */
 import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
 function Header() {
 
     return (
         <div>
-            <Helmet>
+           <Helmet>
                 <meta charSet="utf-8"/>
                 <meta name="viewport" content="width=device-width"/>
                 <title>repl.it</title>
@@ -12,7 +13,7 @@ function Header() {
 
             <header>
                 <div className="left_box">
-                    <Link to="/Main" className="camera_box">
+                    <Link to="/" className="camera_box">
                         <img className="logo" src="/resources2/img/logo.png" alt="인스타 로고"/>
                     </Link>
                     <div className="line">|</div>
@@ -34,9 +35,8 @@ function Header() {
                         <img className="img_size" src="/resources2/img/direct.png" alt="하트"/>
                     </div>
                     <div className="compass_box">
-                        <img className="compass"
-                             src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png"
-                             alt="내 프로필"/>
+                        <img width="150" height="100" src="https://img.icons8.com/plasticine/100/school.png"
+                             alt="school"/>
                     </div>
                     <div className="myProfile_box">
                         <img className="myProfile"
@@ -49,8 +49,8 @@ function Header() {
                 </div>
 
             </header>
-
         </div>
+
     );
 }
 

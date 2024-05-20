@@ -4,10 +4,11 @@ import SignUpFooter from "./SignUpFooter";
 import SignUpBody from "./SignUpBody";
 import SignUpHeader from "./SignUpHeader";
 import {useEffect} from "react";
+import PublicHeader from "../PublicHeader";
 
 
 function SignUp() {
-    useEffect(() => {
+/*    useEffect(() => {
         // 스크립트를 동적으로 생성하여 head에 추가
         addScript(`${process.env.PUBLIC_URL}/resources/js/setting.js`);
         addScript(`${process.env.PUBLIC_URL}/resources/js/plugin.js`);
@@ -23,13 +24,11 @@ function SignUp() {
         script.async = true;
         document.head.appendChild(script);
 
-    };
+    };*/
     return (
 
         <div>
-
-
-            <SignUpHeader/>
+            <PublicHeader/>
             <SignUpBody/>
             <SignUpFooter/>
 

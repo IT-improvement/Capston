@@ -10,7 +10,7 @@ function NewPostBody() {
         <div>
             <section id="container">
 
-                <Helmet>
+           {/*     <Helmet>
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width"/>
                     <title>repl.it</title>
@@ -55,7 +55,7 @@ function NewPostBody() {
                     </div>
 
                 </header>
-
+*/}
                 <div id="main_container">
                     <div className="post_form_container">
                         <form action="#" className="post_form">
