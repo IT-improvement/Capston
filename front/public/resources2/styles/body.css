@@ -11,12 +11,13 @@
 }
 .slide-counter {
   position: absolute;
-  right: 125px;
+  right: 72px;
   color: #ffffff; /* 텍스트 색상 */
   background-color: rgba(0, 0, 0, 0.5); /* 배경색과 투명도 */
   padding: 5px 10px; /* 내부 여백 */
   z-index: 100; /* 다른 요소 위에 배치 */
 }
+
 
 
 body {
@@ -29,10 +30,30 @@ body {
     flex-direction: row;
   }
 
-  .allschool {
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  background-color: #fafafa;
+  position: fixed;
+  transition: width 0.3s, background-color 0.3s; /* 애니메이션 효과 추가 */
+  border-right: 2px solid #afacac;
+  padding-right: 50px;
+}
+
+.sidebar:hover {
+  width: 150px; /* 마우스를 올렸을 때 넓어지는 너비 */
+}
+
+.sidebar-hovered .main_container {
+  margin-left: 80px; /* 사이드바가 넓어졌을 때 main_container의 margin-left 값 조정 */
+  transition: margin-left 0.3s; /* 애니메이션 효과 추가 */
+}
+
+.allschool {
     position: relative;
+    display: flex;
+    flex-direction: column;
     top: 80px;
-    left: 80px;
   }
 
   .myschool{
@@ -152,10 +173,7 @@ body {
   }
 
   .empty_box {
-    height: 35px;
-  }
-  .empty_box2 {
-    height: 35px;
+    height: 55px;
   }
 
 

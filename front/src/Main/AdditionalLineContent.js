@@ -106,7 +106,7 @@ function AdditionalLineContent() {
                                 </div>
                             </div>
                             <div className="more_details">
-                                <img src="/resources2/img/more.png" alt="더보기"/>
+
                             </div>
                         </div>
                     </div>

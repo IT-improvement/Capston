@@ -28,6 +28,7 @@ function MainBodyContent() {
     return (
         <div className="main-body">
             <article className="art">
+                <div className="empty_box"/>
                 <div className="feed">
                     <div className="feed_id">
                         <div className="id_round">
