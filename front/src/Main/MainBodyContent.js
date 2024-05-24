@@ -12,6 +12,7 @@ function MainBodyContent() {
     const [heartClicked, setHeartClicked] = useState(false); // 하트 아이콘이 클릭되었는지 추적하는 상태
 
 
+
     const feedSliderSettings = {
         dots: true,
         infinite: true,

@@ -16,17 +16,17 @@ function Header() {
                     <Link to="/" className="camera_box">
                         <img className="logo" src="/resources2/img/logo.png" alt="인스타 로고"/>
                     </Link>
-                    <div className="line">|</div>
+
                     <div className="logo_box">
                         <text className="logoFont">EveryStarGram</text>
                     </div>
                 </div>
-                <span className="seach_box">
-    <input type="search" className="search" placeholder="검색"/>
-    <div className="magnifier_box">
-      <img className="magnifier" src="/resources2/img/magnifier.png" alt="검색버튼"/>
-    </div>
-  </span>
+                    <span className="seach_box">
+        <input type="search" className="search" placeholder="검색"/>
+        <div className="magnifier_box">
+          <img className="magnifier" src="/resources2/img/magnifier.png" alt="검색버튼"/>
+        </div>
+      </span>
                 <div className="right_box">
                     <Link to="/NewPost" className="home_box">
                         <img className="img_size" src="/resources2/img/home.png" alt="탐색"/>

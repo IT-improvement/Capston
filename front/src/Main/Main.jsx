@@ -6,6 +6,7 @@ import PublicHeader from "../PublicHeader";
 
 
 function Main() {
+
     return (
         <div>
             <Helmet>

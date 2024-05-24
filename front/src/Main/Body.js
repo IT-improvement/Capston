@@ -7,16 +7,19 @@ function Body() {
     const [hovered, setHovered] = useState(false);
 
     return (
-        <div className={`container ${hovered ? "sidebar-hovered" : ""}`}>
-            <div className="sidebar"  onMouseEnter={() => setHovered(true)}
-                 onMouseLeave={() => setHovered(false)}>
+        <div className={`container ${hovered ? 'sidebar-hovered' : ''}`}>
+            <div className="sidebar" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                 <div className="allschool">
-                    <Link to="/allSchoolNotice">
+                    <Link to="/allSchoolNotice" className="sidebar-link">
                         <img width="48" height="48" src="https://img.icons8.com/pulsar-color/48/school-building.png"
-                             alt="school-building"/></Link>
-                    <Link to="/myschool">
+                             alt="school-building"/>
+                        <span className="link-text">전체 대학교 게시글</span>
+                    </Link>
+                    <Link to="/myschool" className="sidebar-link">
                         <img width="48" height="48" src="https://img.icons8.com/pulsar-color/48/noticeboard.png"
-                             alt="noticeboard"/></Link>
+                             alt="noticeboard"/>
+                        <span className="link-text">우리 학교 게시글</span>
+                    </Link>
                 </div>
             </div>
             <div className="main_container">

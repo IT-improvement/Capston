@@ -278,8 +278,8 @@ progress { vertical-align: baseline; }
 
 /* ========== */
 /* Img */
-.img { width: 100%; } 
-.img-mobile { display: none; } 
+.img { width: 100%; }
+.img-mobile { display: none; }
 @media (max-width: 768px){
  .img-pc { display: none; } 
  .img-mobile { display: block; } 
