@@ -1,0 +1,106 @@
+
+
+.project-header-text {
+
+  top: 85px;
+  left: 65px;
+  color: #007aff;
+  border-bottom: solid 1px;
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  gap: 20px;
+  margin-top: 100px;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.project-header input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.project-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.project-bookmark {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  clip-path: polygon(50% 0%, 100% 38%, 79% 100%, 21% 100%, 0% 38%);
+}
+
+.project-body {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.project-info {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.team-icons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.team-icons .icon {
+  width: 30px;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.project-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-description p {
+  margin-bottom: 10px;
+}
+
+.request-button {
+  align-self: flex-end;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.request-button:hover {
+  background-color: darkblue;
+}

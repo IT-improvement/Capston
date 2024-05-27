@@ -19,7 +19,7 @@ function Sidebar() {
                                  alt="noticeboard"/>
                             <span className="link-text"> 우리 학교 게시글</span>
                         </Link>
-                        <Link to="" className="sidebar-link">
+                        <Link to="/projectList" className="sidebar-link">
                             <img width="48" height="48"
                                  src="https://img.icons8.com/pulsar-color/48/collaborating-in-circle.png"
                                  alt="project"/>
