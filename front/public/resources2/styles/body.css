@@ -1,11 +1,15 @@
 .slick-slider .slick-prev:before,
 .slick-slider .slick-next:before {
   color: black !important; /* 원하는 색상으로 변경 */
+    opacity: 1 !important;
+    position: relative !important;
+    width: 50px;
 }
 
 /* 도트 색상 변경 */
 .slick-slider .slick-dots li button:before {
   color: blue !important; /* 도트의 기본 색상 */
+ /* 0.5는 50%의 불투명도를 의미합니다. */
 }
 
 .slick-slider .slick-dots li.slick-active button:before {
@@ -47,7 +51,6 @@
        transition: width 0.3s, background-color 0.3s;
        border-right: 2px solid #afacac;
        padding-right: 50px;
-       bottom: 20px;
        overflow: hidden; /* 내용이 넘치지 않도록 숨기기 */
          }
 
@@ -61,6 +64,7 @@
   transition: margin-left 0.3s;
 }
 
+
 .allschool {
   list-style-type: none;
   padding: 0;
@@ -69,22 +73,28 @@
   flex-direction: column;
   align-items: center;
   padding-top: 80px;
+    margin-left: 4px;
 }
 
-.sidebar-item {
-  width: 100%;
-  margin: 10px 0;
-}
 
 .sidebar-link {
+
   display: flex;
   align-items: center;
   width: 100%;
   padding: 10px 0;
   text-decoration: none;
   color: black;
-}
 
+}
+.sidebar:hover {
+
+    background-color: #ddf0fa; /* 원하는 색상으로 변경 */
+}
+.link-text:hover {
+
+    background-color: #b6e3fa; /* 원하는 색상으로 변경 */
+}
 .link-text {
   margin-left: 10px;
   white-space: nowrap; /* 텍스트가 줄바꿈되지 않도록 설정 */
@@ -101,9 +111,10 @@
       display: none;
     }
     .main_container {
-      display: flex;
-      justify-content: space-between;
-      margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 30px;
     }
 
     .main_body_iframe,
@@ -123,12 +134,18 @@
 
     /* 이하 기존 스타일 */
     article {
-      position: relative;
-      background-color: #fafafa;
-      border-radius: 10px;
-      display: grid;
-      place-items: center; /* 가로와 세로 중앙 정렬 */
-      right: 20px;
+        position: relative;
+        background-color: #fafafa;
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+    }
+    .art {
+        position: relative;
+        background-color: #fafafa;
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
     }
 
     .main_body, .additional-line {
@@ -209,7 +226,7 @@
     }
 
     .empty_box {
-      height: 55px;
+      height: 80px;
     }
 
 
@@ -282,7 +299,7 @@
 
     .more_details {
       position: relative;
-      right: -600px;
+      right: -550px;
     }
 
     .more_details img {

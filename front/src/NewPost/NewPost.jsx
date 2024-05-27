@@ -4,7 +4,7 @@
 
 import NewPostHeader from "./NewPostHeader";
 import NewPostBody from "./NewPostBody";
-import PublicHeader from "../PublicHeader";
+import PublicHeader from "../UserPublic/PublicHeader";
 
 
 function NewPost() {

@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {FaHeart} from "react-icons/fa";
 
+
 function MainBodyContent() {
     const [currentSlide, setCurrentSlide] = useState(0); // 현재 슬라이드 위치를 추적하는 상태
     const [heartClicked, setHeartClicked] = useState(false); // 하트 아이콘이 클릭되었는지 추적하는 상태
@@ -27,6 +28,7 @@ function MainBodyContent() {
     };
 
     return (
+
         <div className="main-body">
             <article className="art">
                 <div className="empty_box"/>
@@ -47,12 +49,13 @@ function MainBodyContent() {
                             </div>
                         </div>
                     </div>
-                    <div className="slide-counter">({currentSlide + 1} / 3)</div>
+                    <div className="slide-counter">({currentSlide + 1} / 4)</div>
                     <div className="feed_picture" onDoubleClick={handleHeartDoubleClick}>
                         <Slider {...feedSliderSettings}>
-                            <img src="/resources2/img/seoulcampuse.jpg" alt="피드 사진 1"/>
+                            <img src="/resources2/img/seoulcampuse3.jpg" alt="피드 사진 3"/>
                             <img src="/resources2/img/seoulcampuse2.jpg" alt="피드 사진 2"/>
                             <img src="/resources2/img/seoulcampuse3.jpg" alt="피드 사진 3"/>
+                            <img src="/resources2/img/seoulcampuse2.jpg" alt="피드 사진 2"/>
                         </Slider>
                         {/* 현재 슬라이드 위치를 나타내는 숫자 표시 */}
                     </div>
@@ -134,6 +137,7 @@ function MainBodyContent() {
                             <img src="/resources2/img/seoulcampuse.jpg" alt="피드 사진 1"/>
                             <img src="/resources2/img/seoulcampuse2.jpg" alt="피드 사진 2"/>
                             <img src="/resources2/img/seoulcampuse3.jpg" alt="피드 사진 3"/>
+
                         </Slider>
                         {/* 현재 슬라이드 위치를 나타내는 숫자 표시 */}
                     </div>

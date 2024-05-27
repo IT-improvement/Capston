@@ -29,20 +29,9 @@ function Header() {
       </span>
                 <div className="right_box">
                     <Link to="/NewPost" className="home_box">
-                        <img className="img_size" src="/resources2/img/home.png" alt="탐색"/>
+                        <img width="64" height="64" src="https://img.icons8.com/pastel-glyph/64/upload--v1.png"/>
                     </Link>
-                    <div className="direct_box">
-                        <img className="img_size" src="/resources2/img/direct.png" alt="하트"/>
-                    </div>
-                    <div className="compass_box">
-                        <img width="150" height="100" src="https://img.icons8.com/plasticine/100/school.png"
-                             alt="school"/>
-                    </div>
-                    <div className="myProfile_box">
-                        <img className="myProfile"
-                             src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png"
-                             alt="내 프로필"/>
-                    </div>
+
                     <Link to="/Login" className="myProfile_box_2">
                         <img className="my_profile" src="/resources2/img/picture8.png" alt="내 프로필"/>
                     </Link>

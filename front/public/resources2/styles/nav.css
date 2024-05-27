@@ -4,7 +4,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  height: 54px;
+  height: 80px;
   top: 0;
   padding: 0 20% 0 20%;
   border-bottom: solid 1px #dbdbdb;
@@ -12,13 +12,10 @@ header {
   z-index: 999;
 }
 .logoFont{
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-size: 20px;
   position: relative;
   right: 220px;
+  top: 15px;
 }
 
 
@@ -57,9 +54,10 @@ header {
   text-align: center;
 }
 .logo {
-  width: 103px;
+  width: 150px;
   position: relative;
   right: 200px;
+  top: 15px;
 }
 
 .logo_box {
@@ -87,9 +85,9 @@ header {
 .magnifier {
   position: absolute;
   top: 35%;
-  left: 43.3%;
-  width: 12px;
-  height: 12px;
+  left: 37.5%;
+  width: 16px;
+  height: 17px;
 }
 
 .search::placeholder {
@@ -103,6 +101,6 @@ header {
 }
 
 .right_box img {
-  width: 22px;
-  height: 22px;
+  width: 35px;
+  height: 35px;
 }

@@ -1,9 +1,5 @@
 /* eslint-disable */
-import Header from "../Header";
-import Body from "./Body";
-import {Helmet} from "react-helmet";
-import Sidebar from "./Sidebar";
-import MainBodyContent from "./MainBodyContent";
+
 import Slider from "react-slick";
 import {FaHeart} from "react-icons/fa";
 import React, {useState} from "react";
@@ -39,7 +35,7 @@ function AdditionalLineContent() {
                         <div className="id_round">
                             <div className="id_box">
                                 <div className="id_box_img">
-                                    <img className="id_img" src="/resources2/img/seoul.png" alt="내 프로필"/>
+                                    <img className="id_img" src="/resources2/img/kyungmin.png" alt="내 프로필"/>
                                 </div>
                                 <div className="id_container">
                                     <div className="id_name">s_sewon</div>
@@ -54,7 +50,7 @@ function AdditionalLineContent() {
                     <div className="slide-counter2">({currentSlide + 1} / 3)</div>
                     <div className="feed_picture" onDoubleClick={handleHeartDoubleClick}>
                         <Slider {...feedSliderSettings}>
-                            <img src="/resources2/img/seoulcampuse.jpg" alt="피드 사진 1"/>
+                            <img src="/resources2/img/roop.png" alt="피드 사진 1"/>
                             <img src="/resources2/img/seoulcampuse2.jpg" alt="피드 사진 2"/>
                             <img src="/resources2/img/seoulcampuse3.jpg" alt="피드 사진 3"/>
                         </Slider>
@@ -135,7 +131,7 @@ function AdditionalLineContent() {
                     <div className="slide-counter">({currentSlide + 1} / 3)</div>
                     <div className="feed_picture" onDoubleClick={handleHeartDoubleClick}>
                         <Slider {...feedSliderSettings}>
-                            <img src="/resources2/img/seoulcampuse.jpg" alt="피드 사진 1"/>
+                            <img src="/resources2/img/seoulcampuse.jpg" alt="피드 사진 3"/>
                             <img src="/resources2/img/seoulcampuse2.jpg" alt="피드 사진 2"/>
                             <img src="/resources2/img/seoulcampuse3.jpg" alt="피드 사진 3"/>
                         </Slider>

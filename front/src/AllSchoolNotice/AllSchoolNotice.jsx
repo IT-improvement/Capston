@@ -1,14 +1,17 @@
 /* eslint-disable */
 
 
-import PublicHeader from "../PublicHeader";
+import PublicHeader from "../UserPublic/PublicHeader";
 import AllSchoolNoticeBody from "./AllSchoolNoticeBody";
+import Frends from "./Frends";
+
 
 function AllSchoolNotice() {
     return (
         <div>
             <PublicHeader/>
             <AllSchoolNoticeBody/>
+            <Frends/>
         </div>
     );
 }

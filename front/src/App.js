@@ -1,5 +1,5 @@
 import Main from "./Main/Main";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Login from "./Login/Login";
 import SignUpAgree from "./SignUpAgree/SignUpAgree";
 import SignUp from "./SignUp/SignUp";
@@ -14,7 +14,7 @@ function App() {
 
   return (
       <div>
-        <BrowserRouter>
+
           <Routes>
             <Route path="/" element={<Main />}/>
             <Route path="/main_body_content" element={<MainBodyContent/>}/>
@@ -26,7 +26,7 @@ function App() {
             <Route path="/Main" element={<Main/>}/>
             <Route path="/AllSchoolNotice" element={<AllSchoolNotice/>}/>
           </Routes>
-        </BrowserRouter>
+
       </div>
   );
 }

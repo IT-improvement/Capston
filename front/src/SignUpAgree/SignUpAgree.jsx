@@ -4,7 +4,7 @@ import SingUpAgreeHeader from "./SingUpAgreeHeader";
 import SignUpAgreeBody from "./SignUpAgreeBody";
 import SignUpAgreeFooter from "./SignUpAgreeFooter";
 import {useEffect} from "react";
-import PublicHeader from "../PublicHeader";
+import PublicHeader from "../UserPublic/PublicHeader";
 
 
 function SignUpAgree() {

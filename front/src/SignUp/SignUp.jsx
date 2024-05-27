@@ -4,7 +4,7 @@ import SignUpFooter from "./SignUpFooter";
 import SignUpBody from "./SignUpBody";
 import SignUpHeader from "./SignUpHeader";
 import {useEffect} from "react";
-import PublicHeader from "../PublicHeader";
+import PublicHeader from "../UserPublic/PublicHeader";
 
 
 function SignUp() {
