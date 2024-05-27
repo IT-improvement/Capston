@@ -13,7 +13,6 @@ function App() {
 
   return (
       <div>
-        <BrowserRouter>
           <Routes>
             <Route path="/" element={<Main />}/>
             <Route path="/main_body_content" element={<MainBodyContent/>}/>
@@ -22,9 +21,7 @@ function App() {
             <Route path="/SignUpAgree" element={<SignUpAgree/>}/>
             <Route path="/SignUp" element={<SignUp/>}/>
             <Route path="/NewPost" element={<NewPost/>}/>
-            <Route path="/Main" element={<Main/>}/>
           </Routes>
-        </BrowserRouter>
       </div>
   );
 }
