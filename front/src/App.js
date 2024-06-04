@@ -10,6 +10,7 @@ import MainBodyContent from "./Main/MainBodyContent";
 import AdditionalLineContent from "./Main/AdditionalLineContent";
 import AllSchoolNotice from "./AllSchoolNotice/AllSchoolNotice";
 import ProjectList from "./Project/ProjectList";
+import BookmarkProject from "./BookmarkProject/BookmarkProject";
 
 
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/NewPost" element={<NewPost/>}/>
             <Route path="/allSchoolNotice" element={<AllSchoolNotice/>}/>
             <Route path="/projectList" element={<ProjectList/>}/>
+              <Route path="/BookmarkProject" element={<BookmarkProject/>}/>
           </Routes>
       </div>
   );

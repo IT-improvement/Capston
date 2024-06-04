@@ -1,6 +1,7 @@
 /* eslint-disable */
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import BookmarkProject from "../BookmarkProject/BookmarkProject";
 
 function Sidebar() {
     const [hovered, setHovered] = useState(false);
@@ -40,7 +41,7 @@ function Sidebar() {
                             <Link to="/projectList" className="sidebar-link">
                                 <span className="link-text">지원 내역</span>
                             </Link>
-                            <Link to="/favoriteProjects" className="sidebar-link">
+                            <Link to="/BookmarkProject" className="sidebar-link">
                                 <span className="link-text">관심 프로젝트</span>
                             </Link>
                         </div>

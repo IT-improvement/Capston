@@ -44,7 +44,7 @@ function ProjectListBody() {
                                  src="https://img.icons8.com/pulsar-color/48/collaborating-in-circle.png" alt="프로젝트"/>
                             <span className="link-text"> 프로젝트</span>
                             <div className="project-arrow-container">
-                            <span className="project-arrow">{projectExpanded ? 'v' : '>'}</span>
+                            <span className="project-arrow">{projectExpanded ? 'v' : '+'}</span>
                             </div>
                         </div>
                         {projectExpanded && (
