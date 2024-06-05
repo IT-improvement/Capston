@@ -22,7 +22,8 @@ function ProjectListBody() {
 
     return (
         <div>
-            <div className={`container ${hovered ? 'sidebar-hovered' : ''}`}>
+
+             <div className={`container ${hovered ? 'sidebar-hovered' : ''}`}>
                 <div className="sidebar" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
 
                     <div className="side-allschool">
@@ -52,7 +53,7 @@ function ProjectListBody() {
                                 <Link to="/projectList" className="sidebar-link">
                                     <span className="link-text-a">지원 내역</span>
                                 </Link>
-                                <Link to="/favoriteProjects" className="sidebar-link">
+                                <Link to="/BookmarkProject" className="sidebar-link">
                                     <span className="link-text-b">관심 프로젝트</span>
                                 </Link>
                             </div>
