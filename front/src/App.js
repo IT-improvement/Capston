@@ -11,6 +11,7 @@ import AdditionalLineContent from "./Main/AdditionalLineContent";
 import AllSchoolNotice from "./AllSchoolNotice/AllSchoolNotice";
 import ProjectList from "./Project/ProjectList";
 import BookmarkProject from "./BookmarkProject/BookmarkProject";
+import Join from "./Join/Join";
 
 
 
@@ -21,8 +22,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />}/>
             <Route path="/main_body_content" element={<MainBodyContent/>}/>
-            <Route path="/additional_line_content" element={<AdditionalLineContent/>}/>
-            <Route path="/Login" element={<Login/>}/>
+              <Route path="/join" element={<Join/>}/>
+
+              <Route path="/additional_line_content" element={<AdditionalLineContent/>}/>
+            <Route path="/login" element={<Login/>}/>
             <Route path="/SignUpAgree" element={<SignUpAgree/>}/>
             <Route path="/SignUp" element={<SignUp/>}/>
             <Route path="/NewPost" element={<NewPost/>}/>
