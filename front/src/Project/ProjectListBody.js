@@ -79,7 +79,12 @@ function ProjectListBody() {
                 </div>
             </div>
             <div className="project-seach">
-                    <span className="project-seach-box">
+                <div className="project-create-container">
+                    <Link to="/createProject">
+                <button className="project-create">프로젝트 공고 작성</button>
+                    </Link>
+                </div>
+                <span className="project-seach-box">
                     <input type="search" className="pj-search" placeholder="검색"/>
                   </span>
                 <button className="project-seach-button">검색 <img className="project-magnifier"
@@ -118,8 +123,8 @@ function ProjectListBody() {
                         </div>
                         <div className="project-description">
                             <p>개요 : ~~~</p>
-                            <p className="project-end">마감 기한 5일전</p>
-                            <button className="request-button">요청하기</button>
+                            <p className="project-d-day-end">마감 완료</p>
+                            <button className="end-request-button">마감</button>
                         </div>
                     </div>
                 </div>

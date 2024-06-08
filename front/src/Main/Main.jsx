@@ -11,7 +11,6 @@ function Main() {
         <div>
             <PublicHeader/>
             <Body/>
-
         </div>
     );
 }

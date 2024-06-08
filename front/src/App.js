@@ -12,6 +12,7 @@ import AllSchoolNotice from "./AllSchoolNotice/AllSchoolNotice";
 import ProjectList from "./Project/ProjectList";
 import BookmarkProject from "./BookmarkProject/BookmarkProject";
 import Join from "./Join/Join";
+import CreateProject from "./CreateProject/CreateProject";
 
 
 
@@ -23,7 +24,6 @@ function App() {
             <Route path="/" element={<Main />}/>
             <Route path="/main_body_content" element={<MainBodyContent/>}/>
               <Route path="/join" element={<Join/>}/>
-
               <Route path="/additional_line_content" element={<AdditionalLineContent/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/SignUpAgree" element={<SignUpAgree/>}/>
@@ -32,6 +32,7 @@ function App() {
             <Route path="/allSchoolNotice" element={<AllSchoolNotice/>}/>
             <Route path="/projectList" element={<ProjectList/>}/>
               <Route path="/BookmarkProject" element={<BookmarkProject/>}/>
+            <Route path="/createProject" element={<CreateProject/>}/>
           </Routes>
       </div>
   );
