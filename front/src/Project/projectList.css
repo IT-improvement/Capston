@@ -165,6 +165,7 @@
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 12px;
+    margin-right: 30px;
   }
 
   .project-dontsee:hover {
@@ -239,11 +240,11 @@
     color: #007aff; /* 화살표 색상 설정 */
   }
 .project-create-container{
-  margin-right: 440px;
+  margin-right: 670px;
 
 }
 .project-create{
-  background-color: #007aff;
+  background-color: #00b36d;
   color: white;
   border: none;
   padding: 5px 15px;
@@ -252,7 +253,7 @@
   font-size: 12px;
 }
 .project-create:hover{
-  background-color: #0056b3;
+  background-color: #029155;
 }
 .project-seach-button:hover{
   background-color: #7a7a7a;
