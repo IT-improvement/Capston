@@ -12,5 +12,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class FavoritePk implements Serializable {
-    
+
+    private String useremail;
+    private int boardIndex;
 }
