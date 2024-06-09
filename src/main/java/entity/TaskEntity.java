@@ -12,7 +12,7 @@ import java.sql.Date;
 @AllArgsConstructor
 @Entity(name = "Task")
 @Table(name = "Task")
-public class Taskentity {
+public class TaskEntity {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int indexnumber;
     private String tasktitle;

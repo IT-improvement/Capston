@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity(name = "user")
 @Table(name = "user")
-public class Userentity {
+public class UserEntity {
 
     @Id
     private String useremail;
