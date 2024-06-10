@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Main from "./Main/Main";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from "./Login/Login";
@@ -6,6 +8,11 @@ import SignUp from "./SignUp/SignUp";
 import NewPost from "./NewPost/NewPost";
 import MainBodyContent from "./Main/MainBodyContent";
 import AdditionalLineContent from "./Main/AdditionalLineContent";
+import AllSchoolNotice from "./AllSchoolNotice/AllSchoolNotice";
+import ProjectList from "./Project/ProjectList";
+import BookmarkProject from "./BookmarkProject/BookmarkProject";
+import Join from "./Join/Join";
+import CreateProject from "./CreateProject/CreateProject";
 
 
 
@@ -16,11 +23,16 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />}/>
             <Route path="/main_body_content" element={<MainBodyContent/>}/>
-            <Route path="/additional_line_content" element={<AdditionalLineContent/>}/>
-            <Route path="/Login" element={<Login/>}/>
+              <Route path="/join" element={<Join/>}/>
+              <Route path="/additional_line_content" element={<AdditionalLineContent/>}/>
+            <Route path="/login" element={<Login/>}/>
             <Route path="/SignUpAgree" element={<SignUpAgree/>}/>
             <Route path="/SignUp" element={<SignUp/>}/>
             <Route path="/NewPost" element={<NewPost/>}/>
+            <Route path="/allSchoolNotice" element={<AllSchoolNotice/>}/>
+            <Route path="/projectList" element={<ProjectList/>}/>
+              <Route path="/BookmarkProject" element={<BookmarkProject/>}/>
+            <Route path="/createProject" element={<CreateProject/>}/>
           </Routes>
       </div>
   );
