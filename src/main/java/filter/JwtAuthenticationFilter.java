@@ -12,13 +12,13 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.reactsrping.boardback.provider.JwtProvider;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import provider.JwtProvider;
 
 @Component
 @RequiredArgsConstructor  //lombok중 하나 필수 생성자를 만듬, final를 생성자로 인식함
