@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 function CreateProjectBody() {
     const [showCalendar, setShowCalendar] = useState(false);
     const [selectedDate, setSelectedDate] = useState({
-        start: "2024-03-01",
-        end: "2024-04-01"
+        start: "시작날짜",
+        end: "마감날짜"
     });
 
     const handleCalendarClick = () => {
@@ -52,11 +52,12 @@ function CreateProjectBody() {
                     <h1 className="project-creation-title">프로젝트 모집 작성</h1>
                     <div className="create-project-info">
                         <p>방장: <span className="create-project-leader">주승재</span></p>
-                        <p>프로젝트 명: <span className="create-project-name">*****프로젝트</span></p>
-                        <div className="create-project-dates" onClick={handleCalendarClick}>
-                            <img width="50" height="50"
+                        <p className="create-name-container">프로젝트 명: <textarea className="create-project-name">*****프로젝트</textarea></p>
+                        <div className="create-project-dates" >
+                            <p>프로젝트 예상 개발 기간: <span
+                                className="create-project-period">{selectedDate.start} - {selectedDate.end}</span></p>
+                            <img width="50" height="50" onClick={handleCalendarClick}
                                  src="https://img.icons8.com/pulsar-color/48/000000/edit-calendar.png" alt="달력"/>
-                            <p>프로젝트 예상 개발 기간: <span className="create-project-period">{selectedDate.start} - {selectedDate.end}</span></p>
                         </div>
                         <div className="project-members">
                             <p>인원 지정:</p>

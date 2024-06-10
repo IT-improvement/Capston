@@ -31,16 +31,28 @@ function Header() {
                     <Link to="/NewPost" className="home_box">
                         <img width="64" height="64" src="https://img.icons8.com/pastel-glyph/64/upload--v1.png"/>
                     </Link>
-
-                    <Link to="/Login" className="myProfile_box_2">
-                        <img className="my_profile" src="/resources2/img/picture8.png" alt="내 프로필"/>
+                    <Link to="/login" className="sidebar-link">
+                        <img width="48" height="48" src="https://img.icons8.com/pulsar-color/48/school-building.png"
+                             alt="홈"/>
                     </Link>
-                </div>
+                    <Link to="/chat" className="sidebar-link">
+                        <img width="48" height="48"
+                             src="https://img.icons8.com/pulsar-color/48/chat-message-sent.png" alt="채팅"/>
+                    </Link>
+                    <Link to="/calendar" className="sidebar-link">
+                        <img width="48" height="48"
+                             src="https://img.icons8.com/pulsar-color/48/000000/edit-calendar.png" alt="달력"/>
+                    </Link>
+
+                        <Link to="/projectList" className="myProfile_box_2">
+                            <img className="my_profile" src="/resources2/img/picture8.png" alt="내 프로필"/>
+                        </Link>
+                    </div>
 
             </header>
         </div>
 
-    );
+);
 }
 
 export default Header;

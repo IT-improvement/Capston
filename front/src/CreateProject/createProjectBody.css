@@ -161,3 +161,15 @@
 .calendar-modal button:hover {
     opacity: 0.9;
 }
+.create-project-name{
+    width: 300px; /* 원하는 너비로 설정 */
+    height: 20px; /* 한 줄 높이로 설정 */
+    resize: none; /* 사용자가 크기를 조정하지 못하도록 설정 */
+    overflow: hidden; /* 텍스트가 넘칠 경우 숨기기 */
+    margin-left: 5px;
+}
+.create-name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
