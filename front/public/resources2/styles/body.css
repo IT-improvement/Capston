@@ -138,8 +138,9 @@ body {
 .main_container {
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
+    margin-left: 140px;
     margin-right: 30px;
+
 }
 
 .main_body_iframe,
@@ -173,7 +174,7 @@ article {
     place-items: center;
 }
 
-.main_body, .additional-line {
+.main_body, .additional-line, .aside {
     flex: 1;
     display: flex;
     position: relative;
@@ -207,10 +208,7 @@ article {
 }
 
 .feed_right_container{
-    position: sticky;
-    width: 450px;
-    top:0px;
-    right:100px;
+
     margin-top:100px;
 }
 
@@ -719,4 +717,8 @@ textarea:focus, input:focus {
 .recommendation {
     font-size: 14px;
     color: #8e8e8e;
+}
+
+aside{
+
 }
