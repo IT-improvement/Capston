@@ -2,7 +2,6 @@ package entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Cleanup;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -13,7 +12,7 @@ import java.sql.Date;
 @NoArgsConstructor
 @Entity(name = "scheduleinfo")
 @Table(name = "scheduleinfo")
-public class SheduleInfo {
+public class SheduleInfoEntity {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int indexnumber;
