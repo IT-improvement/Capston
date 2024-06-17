@@ -630,22 +630,174 @@
     }
 
     .myprofile-container{
-        display: flex;
-        margin-top: 100px;
-        align-items: center;
-        justify-content: space-between;
+        top: 95px;
         position: relative;
+        height: 230px;
+        max-width: 950px;
         width: 100%;
-        height: 50rem;
-        padding: 0 8rem;
-        z-index: 100;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
     }
     .myprofile-img{
-        margin: 0 auto;
-        margin-left: 30rem;
-        margin-bottom: 20rem;
-        width: 100px;
-        height: 100px;
-        border: 5px solid rgb(163, 151, 198);
-        border-radius: 50%;
+        margin-left: 90px;
     }
+.mini-profile {
+    width: 24px;
+    height: 24px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+.profile-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+.profile-name{
+    margin-left: 10px;
+}
+.profile-name-style{
+    font-weight: lighter;
+}
+.profile-friend{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.profile-font-style{
+    font-weight: bold;
+}
+.profile-friend-font{
+    margin-left: 40px;
+}
+.profile-real-name{
+    display: flex;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.btn-profile{
+    display: flex;
+    flex-direction: row;
+    margin-left: -160px;
+    margin-top: 5px;
+}
+.btn-profile-style{
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 3px 8px 3px 8px;
+    background-color: #FAFAFA;
+}
+.btn-setting-style{
+    border: none;
+    background-color: #FAFAFA;
+    margin-left: 10px;
+}
+.profile-post{
+    border-top: 1px solid #c7c7c7;
+    max-height: 1000px;
+    height: 100%;
+    max-width: 895px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 70px;
+}
+.post-image-style{
+    background-color: #FAFAFA;
+    border: none;
+}
+/*피드박스 좌측 상단 미니프로필*/
+.main-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+/*프로필사진들*/
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: showText1 0.5s;
+}
+
+.modal_body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1200px;
+    height: 900px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 50px;
+}
+.modal-text {
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid #dbdbdb;
+    background-color: white;
+}
+.modal-image {
+    height: 900px;
+    width: 750px;
+    object-fit: cover;
+
+}
+.profilepage-image {
+    width: 273px;
+    height: 273px;
+    object-fit: cover;
+    margin: 20px 0;
+    padding: 5px;
+}
+.close-area {
+    background-color: rgba(0, 0, 0, 0.01);
+    border: none;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    color: #fafafa;
+    float: right;
+}
+/*피드박스 좌측 상단 미니프로필*/
+.box-profile {
+    width: 33px;
+    height: 33px;
+    border-radius: 70%;
+    overflow: hidden;
+    object-fit: cover;
+    margin-left: 12px;
+}
+@keyframes showText1 {
+    from {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
