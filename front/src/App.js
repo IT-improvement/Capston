@@ -13,6 +13,8 @@ import ProjectList from "./Project/ProjectList";
 import BookmarkProject from "./BookmarkProject/BookmarkProject";
 import Join from "./Join/Join";
 import CreateProject from "./CreateProject/CreateProject";
+import Posts from "./Main/Posts";
+import DetailedPost from "./DetailedPost/DetailedPost";
 
 
 
@@ -23,8 +25,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />}/>
             <Route path="/main_body_content" element={<MainBodyContent/>}/>
-              <Route path="/join" element={<Join/>}/>
-              <Route path="/additional_line_content" element={<AdditionalLineContent/>}/>
+              <Route path="posts" element={<Posts/>}/>
+             <Route path="/join" element={<Join/>}/>
+            <Route path="/additional_line_content" element={<AdditionalLineContent/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/SignUpAgree" element={<SignUpAgree/>}/>
             <Route path="/SignUp" element={<SignUp/>}/>
@@ -33,6 +36,8 @@ function App() {
             <Route path="/projectList" element={<ProjectList/>}/>
               <Route path="/BookmarkProject" element={<BookmarkProject/>}/>
             <Route path="/createProject" element={<CreateProject/>}/>
+              <Route path="/BookmarkProject" element={<BookmarkProject/>}/>
+              <Route path="/detailedPost" element={<DetailedPost/>}/>
           </Routes>
       </div>
   );

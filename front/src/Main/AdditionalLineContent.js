@@ -53,7 +53,6 @@
         function Article({ feedSliderSettings, currentSlide, handleHeartDoubleClick, heartClicked }) {
             return (
                 <article className="art">
-                    <div className="empty_box" />
                     <div className="feed">
                         <div className="feed_id">
                             <div className="id_round">

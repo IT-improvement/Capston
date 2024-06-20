@@ -1,38 +1,60 @@
 /* eslint-disable */
 
-import React, {useEffect, useState} from "react";
-import {Link} from "react-router-dom";
-import PublicSidebar from "../UserPublic/PublicSidebar";
+import React, { useState } from "react";
 import Aside from "./Aside";
+import "./posts.css";
 
 function Body() {
-    const [hovered, setHovered] = useState(false);
-    const [projectExpanded, setProjectExpanded] = useState(false);
+    const [showPostsMain, setShowPostsMain] = useState(false);
+    const [showPostsAdditional, setShowPostsAdditional] = useState(false);
 
-    const toggleProjectExpand = () => {
-        setProjectExpanded(!projectExpanded);
+    const toggleMainContent = () => {
+        setShowPostsMain(!showPostsMain);
     };
 
-    // 마우스를 떼면 자동으로 프로젝트 접힘
-    useEffect(() => {
-        if (!hovered) {
-            setProjectExpanded(false);
-        }
-    }, [hovered]);
-
+    const toggleAdditionalContent = () => {
+        setShowPostsAdditional(!showPostsAdditional);
+    };
 
     return (
-        <div>
-
-            <div className="main_container">
+        <div className="main_container">
+            <div className="iframe-container">
+                <div className="toggle-container">
+                    <label className="switch">
+                        <input type="checkbox" onChange={toggleMainContent} />
+                        <span className="slider round"></span>
+                    </label>
+                    <span className="toggle-text">
+            {showPostsMain ? "Show Main Iframe" : "Show Posts"}
+          </span>
+                </div>
                 <div className="main_body_iframe">
-                    <iframe title="main_body" src="/main_body_content" className="iframe"></iframe>
+                    {showPostsMain ? (
+                        <iframe title="posts" src="/posts" className="iframe"></iframe>
+                    ) : (
+                        <iframe title="main_body" src="/main_body_content" className="iframe"></iframe>
+                    )}
+                </div>
+            </div>
+            <div className="iframe-container">
+                <div className="toggle-container">
+                    <label className="switch">
+                        <input type="checkbox" onChange={toggleAdditionalContent} />
+                        <span className="slider round"></span>
+                    </label>
+                    <span className="toggle-text">
+            {showPostsAdditional ? "Show Additional Iframe" : "Show Posts"}
+          </span>
                 </div>
                 <div className="additional_line_iframe">
-                    <iframe title="additional_line" src="/additional_line_content" className="iframe"></iframe>
+                    {showPostsAdditional ? (
+                        <iframe title="posts" src="/posts" className="iframe"></iframe>
+                    ) : (
+                        <iframe title="additional_line" src="/additional_line_content" className="iframe"></iframe>
+                    )}
                 </div>
-                <Aside/>
             </div>
+            <Aside />
         </div>
     );
 }

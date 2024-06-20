@@ -108,7 +108,9 @@ function ProjectListBody() {
                         <div className="project-description">
                             <p>개요 : ~~~</p>
                             <p className="project-end">마감 기한 5일전</p>
+                            <Link to="/detailedPost">
                             <button className="request-button">요청하기</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

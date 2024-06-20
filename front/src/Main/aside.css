@@ -1,0 +1,210 @@
+body {
+    background-color: #fafafa;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Sidebar styles */
+.custom-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100px;
+    background-color: #e1e1e1;
+    border-left: 3px solid #afacac;
+    overflow: hidden;
+    transition: width 0.3s;
+    border-radius: 15px 0 0 15px;
+}
+
+.custom-sidebar-open {
+    width: 300px; /* Adjust width when open */
+}
+
+.custom-sidebar-toggle-button {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    z-index: 100;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.custom-sidebar-menu-icon {
+    width: 40px; /* Adjust the size of the menu icon as needed */
+    height: 40px;
+}
+
+/* Profile and user list styles */
+.custom-sidebar-feed_right_container {
+    margin-top: 100px;
+}
+
+.custom-sidebar-my_profile {
+    display: flex;
+    height: 95px;
+    margin: 0px;
+    border-bottom: dotted 1px;
+}
+
+.custom-sidebar-profile_none {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.custom-sidebar-my_profile_box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 66px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-size: contain;
+    flex-direction: column;
+    position: relative;
+}
+
+.custom-sidebar-my_profile_box1 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.custom-sidebar-status {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    bottom: 0;
+    right: 0;
+}
+
+.custom-sidebar-status.online {
+    background-color: #34c759; /* Green color for online status */
+}
+
+.custom-sidebar-my_profile_id {
+    margin-left: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.custom-sidebar-recommendation_box {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px 0px 0px;
+    white-space: nowrap;
+    padding-left: 20px;
+}
+
+.custom-sidebar-recommendation {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.custom-sidebar-comment {
+    font-size: 12px;
+    color: #262626;
+    font-weight: 600;
+}
+
+.custom-sidebar-users {
+    display: flex;
+    height: 290px;
+    flex-direction: column;
+}
+
+.custom-sidebar-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 48px;
+    margin: 5px 0 0 10px;
+}
+
+.custom-sidebar-my_profile_box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    flex-direction: column;
+    position: relative;
+}
+
+.custom-sidebar-my_profile_box2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.custom-sidebar-my_profile_main_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 63%;
+}
+
+.custom-sidebar-my_profile_id_box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.custom-sidebar-my_profile_id1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.custom-sidebar-my_profile_id2 {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.custom-sidebar-status {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    bottom: 0;
+    right: 0;
+}
+
+.custom-sidebar-status.online {
+    background-color: #34c759; /* Green color for online status */
+}
+
+.custom-sidebar-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add gap between icons */
+}
+
+.custom-sidebar-message-icon,
+.custom-sidebar-report-icon {
+    color: #8e8e8e;
+    cursor: pointer;
+}
+
+.custom-sidebar-report-icon {
+    color: #ff3b30; /* Red color for report icon */
+}
+
+.aside_empty_box{
+    height: 50px;
+}
